@@ -1,0 +1,1881 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92040E7A22B876C900B5DE64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92040E7922B876C900B5DE64 /* AppDelegate.swift */; };
+		92040E7C22B876C900B5DE64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92040E7B22B876C900B5DE64 /* ViewController.swift */; };
+		92040E8122B876CA00B5DE64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92040E8022B876CA00B5DE64 /* Assets.xcassets */; };
+		92040E8422B876CA00B5DE64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92040E8222B876CA00B5DE64 /* LaunchScreen.storyboard */; };
+		92040E8F22B876CA00B5DE64 /* swift_linkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92040E8E22B876CA00B5DE64 /* swift_linkTests.swift */; };
+		92040E9A22B876CA00B5DE64 /* swift_linkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92040E9922B876CA00B5DE64 /* swift_linkUITests.swift */; };
+		9204114922B8F70200B5DE64 /* MacroConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9204114822B8F70200B5DE64 /* MacroConfig.swift */; };
+		9204114B22B8F73C00B5DE64 /* RSBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9204114A22B8F73C00B5DE64 /* RSBaseNavigationController.swift */; };
+		92A8D68322BE18DC00864BD8 /* MAVLinkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D68222BE18DC00864BD8 /* MAVLinkManager.swift */; };
+		92A8D68522BE195200864BD8 /* MAVLinkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D68422BE195200864BD8 /* MAVLinkModel.swift */; };
+		92A8DA0C22BE1E8500864BD8 /* MAVLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8CD22BE1E8400864BD8 /* MAVLink.swift */; };
+		92A8DA0D22BE1E8500864BD8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 92A8D8CF22BE1E8400864BD8 /* .gitignore */; };
+		92A8DA0E22BE1E8500864BD8 /* SubModeArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8D122BE1E8400864BD8 /* SubModeArdupilotmegaEnum.swift */; };
+		92A8DA0F22BE1E8500864BD8 /* RCChannelsRawCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8D222BE1E8400864BD8 /* RCChannelsRawCommonMsg.swift */; };
+		92A8DA1022BE1E8500864BD8 /* OpticalFlowRadCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8D322BE1E8400864BD8 /* OpticalFlowRadCommonMsg.swift */; };
+		92A8DA1122BE1E8500864BD8 /* ParachuteActionCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8D422BE1E8400864BD8 /* ParachuteActionCommonEnum.swift */; };
+		92A8DA1222BE1E8500864BD8 /* GoproSetResponseArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8D522BE1E8400864BD8 /* GoproSetResponseArdupilotmegaMsg.swift */; };
+		92A8DA1322BE1E8500864BD8 /* RemoteLogBlockStatusArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8D622BE1E8400864BD8 /* RemoteLogBlockStatusArdupilotmegaMsg.swift */; };
+		92A8DA1422BE1E8500864BD8 /* CollisionCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8D722BE1E8400864BD8 /* CollisionCommonMsg.swift */; };
+		92A8DA1522BE1E8500864BD8 /* ParamSetCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8D822BE1E8400864BD8 /* ParamSetCommonMsg.swift */; };
+		92A8DA1622BE1E8500864BD8 /* EstimatorStatusCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8D922BE1E8400864BD8 /* EstimatorStatusCommonMsg.swift */; };
+		92A8DA1722BE1E8500864BD8 /* MagCalStatusArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8DA22BE1E8400864BD8 /* MagCalStatusArdupilotmegaEnum.swift */; };
+		92A8DA1822BE1E8500864BD8 /* MAVMissionTypeCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8DB22BE1E8400864BD8 /* MAVMissionTypeCommonEnum.swift */; };
+		92A8DA1922BE1E8500864BD8 /* GoproModelArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8DC22BE1E8400864BD8 /* GoproModelArdupilotmegaEnum.swift */; };
+		92A8DA1A22BE1E8500864BD8 /* GimbalAxisCalibrationStatusArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8DD22BE1E8400864BD8 /* GimbalAxisCalibrationStatusArdupilotmegaEnum.swift */; };
+		92A8DA1B22BE1E8500864BD8 /* AttitudeCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8DE22BE1E8400864BD8 /* AttitudeCommonMsg.swift */; };
+		92A8DA1C22BE1E8500864BD8 /* MissionClearAllCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8DF22BE1E8400864BD8 /* MissionClearAllCommonMsg.swift */; };
+		92A8DA1D22BE1E8500864BD8 /* Ahrs3ArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8E022BE1E8400864BD8 /* Ahrs3ArdupilotmegaMsg.swift */; };
+		92A8DA1E22BE1E8500864BD8 /* MountStatusArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8E122BE1E8400864BD8 /* MountStatusArdupilotmegaMsg.swift */; };
+		92A8DA1F22BE1E8500864BD8 /* PlaneModeArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8E222BE1E8400864BD8 /* PlaneModeArdupilotmegaEnum.swift */; };
+		92A8DA2022BE1E8500864BD8 /* PingCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8E322BE1E8400864BD8 /* PingCommonMsg.swift */; };
+		92A8DA2122BE1E8500864BD8 /* NavControllerOutputCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8E422BE1E8400864BD8 /* NavControllerOutputCommonMsg.swift */; };
+		92A8DA2222BE1E8500864BD8 /* HlFailureFlagCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8E522BE1E8400864BD8 /* HlFailureFlagCommonEnum.swift */; };
+		92A8DA2322BE1E8500864BD8 /* GPSInputIgnoreFlagsCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8E622BE1E8400864BD8 /* GPSInputIgnoreFlagsCommonEnum.swift */; };
+		92A8DA2422BE1E8500864BD8 /* VfrHudCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8E722BE1E8400864BD8 /* VfrHudCommonMsg.swift */; };
+		92A8DA2522BE1E8500864BD8 /* ManualControlCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8E822BE1E8400864BD8 /* ManualControlCommonMsg.swift */; };
+		92A8DA2622BE1E8500864BD8 /* MissionItemReachedCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8E922BE1E8400864BD8 /* MissionItemReachedCommonMsg.swift */; };
+		92A8DA2722BE1E8500864BD8 /* LogRequestEndCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8EA22BE1E8400864BD8 /* LogRequestEndCommonMsg.swift */; };
+		92A8DA2822BE1E8500864BD8 /* GPSGlobalOriginCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8EB22BE1E8400864BD8 /* GPSGlobalOriginCommonMsg.swift */; };
+		92A8DA2922BE1E8500864BD8 /* LedControlArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8EC22BE1E8400864BD8 /* LedControlArdupilotmegaMsg.swift */; };
+		92A8DA2A22BE1E8500864BD8 /* MissionRequestPartialListCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8ED22BE1E8400864BD8 /* MissionRequestPartialListCommonMsg.swift */; };
+		92A8DA2B22BE1E8500864BD8 /* UavcanNodeModeCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8EE22BE1E8400864BD8 /* UavcanNodeModeCommonEnum.swift */; };
+		92A8DA2C22BE1E8500864BD8 /* CommandIntCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8EF22BE1E8400864BD8 /* CommandIntCommonMsg.swift */; };
+		92A8DA2D22BE1E8500864BD8 /* MAVSysStatusSensorCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8F022BE1E8400864BD8 /* MAVSysStatusSensorCommonEnum.swift */; };
+		92A8DA2E22BE1E8500864BD8 /* RadioArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8F122BE1E8400864BD8 /* RadioArdupilotmegaMsg.swift */; };
+		92A8DA2F22BE1E8500864BD8 /* SafetySetAllowedAreaCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8F222BE1E8400864BD8 /* SafetySetAllowedAreaCommonMsg.swift */; };
+		92A8DA3022BE1E8500864BD8 /* MAVModeCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8F322BE1E8400864BD8 /* MAVModeCommonEnum.swift */; };
+		92A8DA3122BE1E8500864BD8 /* RCChannelsOverrideCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8F422BE1E8400864BD8 /* RCChannelsOverrideCommonMsg.swift */; };
+		92A8DA3222BE1E8500864BD8 /* CameraModeCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8F522BE1E8400864BD8 /* CameraModeCommonEnum.swift */; };
+		92A8DA3322BE1E8500864BD8 /* UavionixADSBRfHealthUavionixEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8F622BE1E8400864BD8 /* UavionixADSBRfHealthUavionixEnum.swift */; };
+		92A8DA3422BE1E8500864BD8 /* LocalPositionNEDSystemGlobalOffsetCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8F722BE1E8400864BD8 /* LocalPositionNEDSystemGlobalOffsetCommonMsg.swift */; };
+		92A8DA3522BE1E8500864BD8 /* PrecisionLandModeCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8F822BE1E8400864BD8 /* PrecisionLandModeCommonEnum.swift */; };
+		92A8DA3622BE1E8500864BD8 /* MissionRequestIntCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8F922BE1E8400864BD8 /* MissionRequestIntCommonMsg.swift */; };
+		92A8DA3722BE1E8500864BD8 /* VideoStreamStatusFlagsCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8FA22BE1E8400864BD8 /* VideoStreamStatusFlagsCommonEnum.swift */; };
+		92A8DA3822BE1E8500864BD8 /* PidTuningArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8FB22BE1E8400864BD8 /* PidTuningArdupilotmegaMsg.swift */; };
+		92A8DA3922BE1E8500864BD8 /* UavionixADSBOutDynamicGPSFixUavionixEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8FC22BE1E8400864BD8 /* UavionixADSBOutDynamicGPSFixUavionixEnum.swift */; };
+		92A8DA3A22BE1E8500864BD8 /* RemoteLogDataBlockArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8FD22BE1E8400864BD8 /* RemoteLogDataBlockArdupilotmegaMsg.swift */; };
+		92A8DA3B22BE1E8500864BD8 /* DataStreamCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8FE22BE1E8400864BD8 /* DataStreamCommonMsg.swift */; };
+		92A8DA3C22BE1E8500864BD8 /* UavionixADSBOutCfgAircraftSizeUavionixEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D8FF22BE1E8400864BD8 /* UavionixADSBOutCfgAircraftSizeUavionixEnum.swift */; };
+		92A8DA3D22BE1E8500864BD8 /* SetPositionTargetLocalNEDCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D90022BE1E8400864BD8 /* SetPositionTargetLocalNEDCommonMsg.swift */; };
+		92A8DA3E22BE1E8500864BD8 /* MagCalReportArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D90122BE1E8400864BD8 /* MagCalReportArdupilotmegaMsg.swift */; };
+		92A8DA3F22BE1E8500864BD8 /* CameraStatusTypesArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D90222BE1E8400864BD8 /* CameraStatusTypesArdupilotmegaEnum.swift */; };
+		92A8DA4022BE1E8500864BD8 /* MAVVTOLStateCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D90322BE1E8400864BD8 /* MAVVTOLStateCommonEnum.swift */; };
+		92A8DA4122BE1E8500864BD8 /* GlobalVisionPositionEstimateCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D90422BE1E8400864BD8 /* GlobalVisionPositionEstimateCommonMsg.swift */; };
+		92A8DA4222BE1E8500864BD8 /* GoproProtuneWhiteBalanceArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D90522BE1E8400864BD8 /* GoproProtuneWhiteBalanceArdupilotmegaEnum.swift */; };
+		92A8DA4322BE1E8500864BD8 /* UavionixADSBEmergencyStatusUavionixEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D90622BE1E8400864BD8 /* UavionixADSBEmergencyStatusUavionixEnum.swift */; };
+		92A8DA4422BE1E8500864BD8 /* MAVSeverityCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D90722BE1E8400864BD8 /* MAVSeverityCommonEnum.swift */; };
+		92A8DA4522BE1E8500864BD8 /* MAVCmdArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D90822BE1E8400864BD8 /* MAVCmdArdupilotmegaEnum.swift */; };
+		92A8DA4622BE1E8500864BD8 /* GoproCommandArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D90922BE1E8400864BD8 /* GoproCommandArdupilotmegaEnum.swift */; };
+		92A8DA4722BE1E8500864BD8 /* HwstatusArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D90A22BE1E8400864BD8 /* HwstatusArdupilotmegaMsg.swift */; };
+		92A8DA4822BE1E8500864BD8 /* LinkNodeStatusCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D90B22BE1E8400864BD8 /* LinkNodeStatusCommonMsg.swift */; };
+		92A8DA4922BE1E8500864BD8 /* ADSBEmitterTypeCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D90C22BE1E8400864BD8 /* ADSBEmitterTypeCommonEnum.swift */; };
+		92A8DA4A22BE1E8500864BD8 /* LogEntryCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D90D22BE1E8400864BD8 /* LogEntryCommonMsg.swift */; };
+		92A8DA4B22BE1E8500864BD8 /* RangefinderArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D90E22BE1E8400864BD8 /* RangefinderArdupilotmegaMsg.swift */; };
+		92A8DA4C22BE1E8500864BD8 /* DigicamControlArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D90F22BE1E8400864BD8 /* DigicamControlArdupilotmegaMsg.swift */; };
+		92A8DA4D22BE1E8500864BD8 /* GimbalTorqueCmdReportArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D91022BE1E8400864BD8 /* GimbalTorqueCmdReportArdupilotmegaMsg.swift */; };
+		92A8DA4E22BE1E8500864BD8 /* LimitsStatusArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D91122BE1E8400864BD8 /* LimitsStatusArdupilotmegaMsg.swift */; };
+		92A8DA4F22BE1E8500864BD8 /* MAVLandedStateCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D91222BE1E8400864BD8 /* MAVLandedStateCommonEnum.swift */; };
+		92A8DA5022BE1E8500864BD8 /* TerrainRequestCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D91322BE1E8400864BD8 /* TerrainRequestCommonMsg.swift */; };
+		92A8DA5122BE1E8500864BD8 /* ExtendedSysStateCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D91422BE1E8400864BD8 /* ExtendedSysStateCommonMsg.swift */; };
+		92A8DA5222BE1E8500864BD8 /* MissionRequestListCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D91522BE1E8400864BD8 /* MissionRequestListCommonMsg.swift */; };
+		92A8DA5322BE1E8500864BD8 /* RoverModeArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D91622BE1E8400864BD8 /* RoverModeArdupilotmegaEnum.swift */; };
+		92A8DA5422BE1E8500864BD8 /* VideoStreamTypeCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D91722BE1E8400864BD8 /* VideoStreamTypeCommonEnum.swift */; };
+		92A8DA5522BE1E8500864BD8 /* ParamValueCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D91822BE1E8400864BD8 /* ParamValueCommonMsg.swift */; };
+		92A8DA5622BE1E8500864BD8 /* CompassmotStatusArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D91922BE1E8400864BD8 /* CompassmotStatusArdupilotmegaMsg.swift */; };
+		92A8DA5722BE1E8500864BD8 /* TimesyncCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D91A22BE1E8400864BD8 /* TimesyncCommonMsg.swift */; };
+		92A8DA5822BE1E8500864BD8 /* SimstateArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D91B22BE1E8400864BD8 /* SimstateArdupilotmegaMsg.swift */; };
+		92A8DA5922BE1E8500864BD8 /* GoproProtuneGainArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D91C22BE1E8400864BD8 /* GoproProtuneGainArdupilotmegaEnum.swift */; };
+		92A8DA5A22BE1E8500864BD8 /* MissionItemIntCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D91D22BE1E8400864BD8 /* MissionItemIntCommonMsg.swift */; };
+		92A8DA5B22BE1E8500864BD8 /* AirspeedAutocalArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D91E22BE1E8400864BD8 /* AirspeedAutocalArdupilotmegaMsg.swift */; };
+		92A8DA5C22BE1E8500864BD8 /* DistanceSensorCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D91F22BE1E8400864BD8 /* DistanceSensorCommonMsg.swift */; };
+		92A8DA5D22BE1E8500864BD8 /* SetFocusTypeCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D92022BE1E8400864BD8 /* SetFocusTypeCommonEnum.swift */; };
+		92A8DA5E22BE1E8500864BD8 /* CellularNetworkStatusFlagCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D92122BE1E8400864BD8 /* CellularNetworkStatusFlagCommonEnum.swift */; };
+		92A8DA5F22BE1E8500864BD8 /* SerialControlFlagCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D92222BE1E8400864BD8 /* SerialControlFlagCommonEnum.swift */; };
+		92A8DA6022BE1E8500864BD8 /* PositionTargetLocalNEDCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D92322BE1E8400864BD8 /* PositionTargetLocalNEDCommonMsg.swift */; };
+		92A8DA6122BE1E8500864BD8 /* HomePositionCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D92422BE1E8400864BD8 /* HomePositionCommonMsg.swift */; };
+		92A8DA6222BE1E8500864BD8 /* GimbalAxisCalibrationRequiredArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D92522BE1E8400864BD8 /* GimbalAxisCalibrationRequiredArdupilotmegaEnum.swift */; };
+		92A8DA6322BE1E8500864BD8 /* EstimatorStatusFlagsCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D92622BE1E8400864BD8 /* EstimatorStatusFlagsCommonEnum.swift */; };
+		92A8DA6422BE1E8500864BD8 /* LimitsStateArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D92722BE1E8400864BD8 /* LimitsStateArdupilotmegaEnum.swift */; };
+		92A8DA6522BE1E8500864BD8 /* LogRequestListCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D92822BE1E8400864BD8 /* LogRequestListCommonMsg.swift */; };
+		92A8DA6622BE1E8500864BD8 /* SysStatusCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D92922BE1E8400864BD8 /* SysStatusCommonMsg.swift */; };
+		92A8DA6722BE1E8500864BD8 /* MAVDistanceSensorCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D92A22BE1E8400864BD8 /* MAVDistanceSensorCommonEnum.swift */; };
+		92A8DA6822BE1E8500864BD8 /* MAVCollisionThreatLevelCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D92B22BE1E8400864BD8 /* MAVCollisionThreatLevelCommonEnum.swift */; };
+		92A8DA6922BE1E8500864BD8 /* HilControlsCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D92C22BE1E8400864BD8 /* HilControlsCommonMsg.swift */; };
+		92A8DA6A22BE1E8500864BD8 /* ChangeOperatorControlCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D92D22BE1E8400864BD8 /* ChangeOperatorControlCommonMsg.swift */; };
+		92A8DA6B22BE1E8500864BD8 /* AutopilotVersionRequestArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D92E22BE1E8400864BD8 /* AutopilotVersionRequestArdupilotmegaMsg.swift */; };
+		92A8DA6C22BE1E8500864BD8 /* MAVROICommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D92F22BE1E8400864BD8 /* MAVROICommonEnum.swift */; };
+		92A8DA6D22BE1E8500864BD8 /* MAVRemoteLogDataBlockCommandsArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D93022BE1E8400864BD8 /* MAVRemoteLogDataBlockCommandsArdupilotmegaEnum.swift */; };
+		92A8DA6E22BE1E8500864BD8 /* DigicamConfigureArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D93122BE1E8400864BD8 /* DigicamConfigureArdupilotmegaMsg.swift */; };
+		92A8DA6F22BE1E8500864BD8 /* GoproFieldOfViewArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D93222BE1E8400864BD8 /* GoproFieldOfViewArdupilotmegaEnum.swift */; };
+		92A8DA7022BE1E8500864BD8 /* AttitudeTargetCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D93322BE1E8400864BD8 /* AttitudeTargetCommonMsg.swift */; };
+		92A8DA7122BE1E8500864BD8 /* ScaledIMUCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D93422BE1E8400864BD8 /* ScaledIMUCommonMsg.swift */; };
+		92A8DA7222BE1E8500864BD8 /* AttitudeQuaternionCovCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D93522BE1E8400864BD8 /* AttitudeQuaternionCovCommonMsg.swift */; };
+		92A8DA7322BE1E8500864BD8 /* GPSInputCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D93622BE1E8400864BD8 /* GPSInputCommonMsg.swift */; };
+		92A8DA7422BE1E8500864BD8 /* FirmwareVersionTypeCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D93722BE1E8400864BD8 /* FirmwareVersionTypeCommonEnum.swift */; };
+		92A8DA7522BE1E8500864BD8 /* MAVFrameCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D93822BE1E8400864BD8 /* MAVFrameCommonEnum.swift */; };
+		92A8DA7622BE1E8500864BD8 /* GPS2RTKCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D93922BE1E8400864BD8 /* GPS2RTKCommonMsg.swift */; };
+		92A8DA7722BE1E8500864BD8 /* MissionWritePartialListCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D93A22BE1E8400864BD8 /* MissionWritePartialListCommonMsg.swift */; };
+		92A8DA7822BE1E8500864BD8 /* MAVCollisionActionCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D93B22BE1E8400864BD8 /* MAVCollisionActionCommonEnum.swift */; };
+		92A8DA7922BE1E8500864BD8 /* LocalPositionNEDCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D93C22BE1E8400864BD8 /* LocalPositionNEDCommonMsg.swift */; };
+		92A8DA7A22BE1E8500864BD8 /* HighresIMUCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D93D22BE1E8400864BD8 /* HighresIMUCommonMsg.swift */; };
+		92A8DA7B22BE1E8500864BD8 /* MAVParamExtTypeCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D93E22BE1E8400864BD8 /* MAVParamExtTypeCommonEnum.swift */; };
+		92A8DA7C22BE1E8500864BD8 /* SensorOffsetsArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D93F22BE1E8400864BD8 /* SensorOffsetsArdupilotmegaMsg.swift */; };
+		92A8DA7D22BE1E8500864BD8 /* TerrainDataCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D94022BE1E8400864BD8 /* TerrainDataCommonMsg.swift */; };
+		92A8DA7E22BE1E8500864BD8 /* NamedValueIntCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D94122BE1E8400864BD8 /* NamedValueIntCommonMsg.swift */; };
+		92A8DA7F22BE1E8500864BD8 /* SafetyAllowedAreaCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D94222BE1E8400864BD8 /* SafetyAllowedAreaCommonMsg.swift */; };
+		92A8DA8022BE1E8500864BD8 /* GoproGetRequestArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D94322BE1E8400864BD8 /* GoproGetRequestArdupilotmegaMsg.swift */; };
+		92A8DA8122BE1E8500864BD8 /* CopterModeArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D94422BE1E8400864BD8 /* CopterModeArdupilotmegaEnum.swift */; };
+		92A8DA8222BE1E8500864BD8 /* MissionItemCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D94522BE1E8400864BD8 /* MissionItemCommonMsg.swift */; };
+		92A8DA8322BE1E8500864BD8 /* FenceBreachCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D94622BE1E8400864BD8 /* FenceBreachCommonEnum.swift */; };
+		92A8DA8422BE1E8500864BD8 /* TerrainReportCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D94722BE1E8400864BD8 /* TerrainReportCommonMsg.swift */; };
+		92A8DA8522BE1E8500864BD8 /* CameraTriggerCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D94822BE1E8400864BD8 /* CameraTriggerCommonMsg.swift */; };
+		92A8DA8622BE1E8500864BD8 /* GPSStatusCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D94922BE1E8400864BD8 /* GPSStatusCommonMsg.swift */; };
+		92A8DA8722BE1E8500864BD8 /* CellularNetworkRadioTypeCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D94A22BE1E8400864BD8 /* CellularNetworkRadioTypeCommonEnum.swift */; };
+		92A8DA8822BE1E8500864BD8 /* GPSInjectDataCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D94B22BE1E8400864BD8 /* GPSInjectDataCommonMsg.swift */; };
+		92A8DA8922BE1E8500864BD8 /* MAVSmartBatteryFaultCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D94C22BE1E8400864BD8 /* MAVSmartBatteryFaultCommonEnum.swift */; };
+		92A8DA8A22BE1E8500864BD8 /* AccelcalVehiclePosArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D94D22BE1E8400864BD8 /* AccelcalVehiclePosArdupilotmegaEnum.swift */; };
+		92A8DA8B22BE1E8500864BD8 /* MeminfoArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D94E22BE1E8400864BD8 /* MeminfoArdupilotmegaMsg.swift */; };
+		92A8DA8C22BE1E8500864BD8 /* ResourceRequestCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D94F22BE1E8400864BD8 /* ResourceRequestCommonMsg.swift */; };
+		92A8DA8D22BE1E8500864BD8 /* MAVGotoCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D95022BE1E8400864BD8 /* MAVGotoCommonEnum.swift */; };
+		92A8DA8E22BE1E8500864BD8 /* HighLatency2CommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D95122BE1E8400864BD8 /* HighLatency2CommonMsg.swift */; };
+		92A8DA8F22BE1E8500864BD8 /* RpmArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D95222BE1E8400864BD8 /* RpmArdupilotmegaMsg.swift */; };
+		92A8DA9022BE1E8500864BD8 /* MotorTestThrottleTypeCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D95322BE1E8400864BD8 /* MotorTestThrottleTypeCommonEnum.swift */; };
+		92A8DA9122BE1E8500864BD8 /* AhrsArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D95422BE1E8400864BD8 /* AhrsArdupilotmegaMsg.swift */; };
+		92A8DA9222BE1E8500864BD8 /* StorageStatusCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D95522BE1E8400864BD8 /* StorageStatusCommonEnum.swift */; };
+		92A8DA9322BE1E8500864BD8 /* ADSBVehicleCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D95622BE1E8400864BD8 /* ADSBVehicleCommonMsg.swift */; };
+		92A8DA9422BE1E8500864BD8 /* FileTransferProtocolCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D95722BE1E8400864BD8 /* FileTransferProtocolCommonMsg.swift */; };
+		92A8DA9522BE1E8500864BD8 /* RawPressureCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D95822BE1E8400864BD8 /* RawPressureCommonMsg.swift */; };
+		92A8DA9622BE1E8500864BD8 /* GoproProtuneSharpnessArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D95922BE1E8400864BD8 /* GoproProtuneSharpnessArdupilotmegaEnum.swift */; };
+		92A8DA9722BE1E8500864BD8 /* DeviceOpBustypeArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D95A22BE1E8400864BD8 /* DeviceOpBustypeArdupilotmegaEnum.swift */; };
+		92A8DA9822BE1E8500864BD8 /* GoproBurstRateArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D95B22BE1E8400864BD8 /* GoproBurstRateArdupilotmegaEnum.swift */; };
+		92A8DA9922BE1E8500864BD8 /* HilSensorCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D95C22BE1E8400864BD8 /* HilSensorCommonMsg.swift */; };
+		92A8DA9A22BE1E8500864BD8 /* GoproVideoSettingsFlagsArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D95D22BE1E8400864BD8 /* GoproVideoSettingsFlagsArdupilotmegaEnum.swift */; };
+		92A8DA9B22BE1E8500864BD8 /* FencePointArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D95E22BE1E8400864BD8 /* FencePointArdupilotmegaMsg.swift */; };
+		92A8DA9C22BE1E8500864BD8 /* SetPositionTargetGlobalIntCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D95F22BE1E8400864BD8 /* SetPositionTargetGlobalIntCommonMsg.swift */; };
+		92A8DA9D22BE1E8500864BD8 /* MountControlArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D96022BE1E8400864BD8 /* MountControlArdupilotmegaMsg.swift */; };
+		92A8DA9E22BE1E8500864BD8 /* V2ExtensionCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D96122BE1E8400864BD8 /* V2ExtensionCommonMsg.swift */; };
+		92A8DA9F22BE1E8500864BD8 /* ParamMapRCCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D96222BE1E8400864BD8 /* ParamMapRCCommonMsg.swift */; };
+		92A8DAA022BE1E8500864BD8 /* LogDataCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D96322BE1E8400864BD8 /* LogDataCommonMsg.swift */; };
+		92A8DAA122BE1E8500864BD8 /* MAVProtocolCapabilityCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D96422BE1E8400864BD8 /* MAVProtocolCapabilityCommonEnum.swift */; };
+		92A8DAA222BE1E8500864BD8 /* UavionixADSBOutRfSelectUavionixEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D96522BE1E8400864BD8 /* UavionixADSBOutRfSelectUavionixEnum.swift */; };
+		92A8DAA322BE1E8500864BD8 /* LandingTargetTypeCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D96622BE1E8400864BD8 /* LandingTargetTypeCommonEnum.swift */; };
+		92A8DAA422BE1E8500864BD8 /* ManualSetpointCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D96722BE1E8400864BD8 /* ManualSetpointCommonMsg.swift */; };
+		92A8DAA522BE1E8500864BD8 /* MAVArmAuthDeniedReasonCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D96822BE1E8400864BD8 /* MAVArmAuthDeniedReasonCommonEnum.swift */; };
+		92A8DAA622BE1E8500864BD8 /* WindCovCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D96922BE1E8400864BD8 /* WindCovCommonMsg.swift */; };
+		92A8DAA722BE1E8500864BD8 /* GPSRawIntCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D96A22BE1E8400864BD8 /* GPSRawIntCommonMsg.swift */; };
+		92A8DAA822BE1E8500864BD8 /* MissionCurrentCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D96B22BE1E8400864BD8 /* MissionCurrentCommonMsg.swift */; };
+		92A8DAA922BE1E8500864BD8 /* DebugVectCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D96C22BE1E8400864BD8 /* DebugVectCommonMsg.swift */; };
+		92A8DAAA22BE1E8500864BD8 /* UavionixADSBOutCfgGPSOffsetLatUavionixEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D96D22BE1E8400864BD8 /* UavionixADSBOutCfgGPSOffsetLatUavionixEnum.swift */; };
+		92A8DAAB22BE1E8500864BD8 /* DataTransmissionHandshakeCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D96E22BE1E8400864BD8 /* DataTransmissionHandshakeCommonMsg.swift */; };
+		92A8DAAC22BE1E8500864BD8 /* UavionixADSBOutCfgGPSOffsetLonUavionixEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D96F22BE1E8400864BD8 /* UavionixADSBOutCfgGPSOffsetLonUavionixEnum.swift */; };
+		92A8DAAD22BE1E8500864BD8 /* MAVBatteryChargeStateCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D97022BE1E8400864BD8 /* MAVBatteryChargeStateCommonEnum.swift */; };
+		92A8DAAE22BE1E8500864BD8 /* GoproGetResponseArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D97122BE1E8400864BD8 /* GoproGetResponseArdupilotmegaMsg.swift */; };
+		92A8DAAF22BE1E8500864BD8 /* MAVModeFlagCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D97222BE1E8400864BD8 /* MAVModeFlagCommonEnum.swift */; };
+		92A8DAB022BE1E8500864BD8 /* MissionAckCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D97322BE1E8400864BD8 /* MissionAckCommonMsg.swift */; };
+		92A8DAB122BE1E8500864BD8 /* VisionSpeedEstimateCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D97422BE1E8400864BD8 /* VisionSpeedEstimateCommonMsg.swift */; };
+		92A8DAB222BE1E8500864BD8 /* UtmDataAvailFlagsCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D97522BE1E8400864BD8 /* UtmDataAvailFlagsCommonEnum.swift */; };
+		92A8DAB322BE1E8500864BD8 /* CameraFeedbackArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D97622BE1E8400864BD8 /* CameraFeedbackArdupilotmegaMsg.swift */; };
+		92A8DAB422BE1E8500864BD8 /* ApAdcArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D97722BE1E8400864BD8 /* ApAdcArdupilotmegaMsg.swift */; };
+		92A8DAB522BE1E8500864BD8 /* ScaledPressureCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D97822BE1E8400864BD8 /* ScaledPressureCommonMsg.swift */; };
+		92A8DAB622BE1E8500864BD8 /* VibrationCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D97922BE1E8400864BD8 /* VibrationCommonMsg.swift */; };
+		92A8DAB722BE1E8500864BD8 /* RallyFlagsArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D97A22BE1E8400864BD8 /* RallyFlagsArdupilotmegaEnum.swift */; };
+		92A8DAB822BE1E8500864BD8 /* FenceFetchPointArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D97B22BE1E8400864BD8 /* FenceFetchPointArdupilotmegaMsg.swift */; };
+		92A8DAB922BE1E8500864BD8 /* BatteryStatusCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D97C22BE1E8400864BD8 /* BatteryStatusCommonMsg.swift */; };
+		92A8DABA22BE1E8500864BD8 /* SetHomePositionCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D97D22BE1E8400864BD8 /* SetHomePositionCommonMsg.swift */; };
+		92A8DABB22BE1E8500864BD8 /* SerialControlCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D97E22BE1E8400864BD8 /* SerialControlCommonMsg.swift */; };
+		92A8DABC22BE1E8500864BD8 /* GoproHeartbeatStatusArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D97F22BE1E8400864BD8 /* GoproHeartbeatStatusArdupilotmegaEnum.swift */; };
+		92A8DABD22BE1E8500864BD8 /* MAVModeFlagDecodePositionCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D98022BE1E8400864BD8 /* MAVModeFlagDecodePositionCommonEnum.swift */; };
+		92A8DABE22BE1E8500864BD8 /* MAVDataStreamCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D98122BE1E8400864BD8 /* MAVDataStreamCommonEnum.swift */; };
+		92A8DABF22BE1E8500864BD8 /* PositionTargetGlobalIntCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D98222BE1E8400864BD8 /* PositionTargetGlobalIntCommonMsg.swift */; };
+		92A8DAC022BE1E8500864BD8 /* Data96ArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D98322BE1E8400864BD8 /* Data96ArdupilotmegaMsg.swift */; };
+		92A8DAC122BE1E8500864BD8 /* ServoOutputRawCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D98422BE1E8500864BD8 /* ServoOutputRawCommonMsg.swift */; };
+		92A8DAC222BE1E8500864BD8 /* LocalPositionNEDCovCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D98522BE1E8500864BD8 /* LocalPositionNEDCovCommonMsg.swift */; };
+		92A8DAC322BE1E8500864BD8 /* EkfStatusReportArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D98622BE1E8500864BD8 /* EkfStatusReportArdupilotmegaMsg.swift */; };
+		92A8DAC422BE1E8500864BD8 /* RTKBaselineCoordinateSystemCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D98722BE1E8500864BD8 /* RTKBaselineCoordinateSystemCommonEnum.swift */; };
+		92A8DAC522BE1E8500864BD8 /* FenceStatusArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D98822BE1E8500864BD8 /* FenceStatusArdupilotmegaMsg.swift */; };
+		92A8DAC622BE1E8500864BD8 /* GoproProtuneColourArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D98922BE1E8500864BD8 /* GoproProtuneColourArdupilotmegaEnum.swift */; };
+		92A8DAC722BE1E8500864BD8 /* MAVSensorOrientationCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D98A22BE1E8500864BD8 /* MAVSensorOrientationCommonEnum.swift */; };
+		92A8DAC822BE1E8500864BD8 /* MissionCountCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D98B22BE1E8500864BD8 /* MissionCountCommonMsg.swift */; };
+		92A8DAC922BE1E8500864BD8 /* Ahrs2ArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D98C22BE1E8500864BD8 /* Ahrs2ArdupilotmegaMsg.swift */; };
+		92A8DACA22BE1E8500864BD8 /* CameraCapFlagsCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D98D22BE1E8500864BD8 /* CameraCapFlagsCommonEnum.swift */; };
+		92A8DACB22BE1E8500864BD8 /* MAVEstimatorTypeCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D98E22BE1E8500864BD8 /* MAVEstimatorTypeCommonEnum.swift */; };
+		92A8DACC22BE1E8500864BD8 /* FenceActionCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D98F22BE1E8500864BD8 /* FenceActionCommonEnum.swift */; };
+		92A8DACD22BE1E8500864BD8 /* MAVAutopilotCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D99022BE1E8500864BD8 /* MAVAutopilotCommonEnum.swift */; };
+		92A8DACE22BE1E8500864BD8 /* VTOLTransitionHeadingCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D99122BE1E8500864BD8 /* VTOLTransitionHeadingCommonEnum.swift */; };
+		92A8DACF22BE1E8500864BD8 /* Battery2ArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D99222BE1E8500864BD8 /* Battery2ArdupilotmegaMsg.swift */; };
+		92A8DAD022BE1E8500864BD8 /* MAVCmdAckCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D99322BE1E8500864BD8 /* MAVCmdAckCommonEnum.swift */; };
+		92A8DAD122BE1E8500864BD8 /* AutopilotVersionCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D99422BE1E8500864BD8 /* AutopilotVersionCommonMsg.swift */; };
+		92A8DAD222BE1E8500864BD8 /* ViconPositionEstimateCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D99522BE1E8500864BD8 /* ViconPositionEstimateCommonMsg.swift */; };
+		92A8DAD322BE1E8500864BD8 /* OpticalFlowCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D99622BE1E8500864BD8 /* OpticalFlowCommonMsg.swift */; };
+		92A8DAD422BE1E8500864BD8 /* GripperActionsArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D99722BE1E8500864BD8 /* GripperActionsArdupilotmegaEnum.swift */; };
+		92A8DAD522BE1E8500864BD8 /* MAVDoRepositionFlagsCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D99822BE1E8500864BD8 /* MAVDoRepositionFlagsCommonEnum.swift */; };
+		92A8DAD622BE1E8500864BD8 /* GoproFrameRateArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D99922BE1E8500864BD8 /* GoproFrameRateArdupilotmegaEnum.swift */; };
+		92A8DAD722BE1E8500864BD8 /* RallyFetchPointArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D99A22BE1E8500864BD8 /* RallyFetchPointArdupilotmegaMsg.swift */; };
+		92A8DAD822BE1E8500864BD8 /* DeepstallStageArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D99B22BE1E8500864BD8 /* DeepstallStageArdupilotmegaEnum.swift */; };
+		92A8DAD922BE1E8500864BD8 /* AuthKeyCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D99C22BE1E8500864BD8 /* AuthKeyCommonMsg.swift */; };
+		92A8DADA22BE1E8500864BD8 /* GimbalReportArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D99D22BE1E8500864BD8 /* GimbalReportArdupilotmegaMsg.swift */; };
+		92A8DADB22BE1E8500864BD8 /* SetAttitudeTargetCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D99E22BE1E8500864BD8 /* SetAttitudeTargetCommonMsg.swift */; };
+		92A8DADC22BE1E8500864BD8 /* LogEraseCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D99F22BE1E8500864BD8 /* LogEraseCommonMsg.swift */; };
+		92A8DADD22BE1E8500864BD8 /* TrackerModeArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9A022BE1E8500864BD8 /* TrackerModeArdupilotmegaEnum.swift */; };
+		92A8DADE22BE1E8500864BD8 /* SetActuatorControlTargetCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9A122BE1E8500864BD8 /* SetActuatorControlTargetCommonMsg.swift */; };
+		92A8DADF22BE1E8500864BD8 /* CameraZoomTypeCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9A222BE1E8500864BD8 /* CameraZoomTypeCommonEnum.swift */; };
+		92A8DAE022BE1E8500864BD8 /* EkfStatusFlagsArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9A322BE1E8500864BD8 /* EkfStatusFlagsArdupilotmegaEnum.swift */; };
+		92A8DAE122BE1E8500864BD8 /* SystemTimeCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9A422BE1E8500864BD8 /* SystemTimeCommonMsg.swift */; };
+		92A8DAE222BE1E8500864BD8 /* MissionChangedCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9A522BE1E8500864BD8 /* MissionChangedCommonMsg.swift */; };
+		92A8DAE322BE1E8500864BD8 /* GPS2RawCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9A622BE1E8500864BD8 /* GPS2RawCommonMsg.swift */; };
+		92A8DAE422BE1E8500864BD8 /* RawIMUCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9A722BE1E8500864BD8 /* RawIMUCommonMsg.swift */; };
+		92A8DAE522BE1E8500864BD8 /* RCChannelsCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9A822BE1E8500864BD8 /* RCChannelsCommonMsg.swift */; };
+		92A8DAE622BE1E8500864BD8 /* MAVResultCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9A922BE1E8500864BD8 /* MAVResultCommonEnum.swift */; };
+		92A8DAE722BE1E8500864BD8 /* HilActuatorControlsCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9AA22BE1E8500864BD8 /* HilActuatorControlsCommonMsg.swift */; };
+		92A8DAE822BE1E8500864BD8 /* GoproChargingArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9AB22BE1E8500864BD8 /* GoproChargingArdupilotmegaEnum.swift */; };
+		92A8DAE922BE1E8500864BD8 /* NamedValueFloatCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9AC22BE1E8500864BD8 /* NamedValueFloatCommonMsg.swift */; };
+		92A8DAEA22BE1E8500864BD8 /* SerialControlDevCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9AD22BE1E8500864BD8 /* SerialControlDevCommonEnum.swift */; };
+		92A8DAEB22BE1E8500864BD8 /* LogRequestDataCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9AE22BE1E8500864BD8 /* LogRequestDataCommonMsg.swift */; };
+		92A8DAEC22BE1E8500864BD8 /* ParamRequestListCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9AF22BE1E8500864BD8 /* ParamRequestListCommonMsg.swift */; };
+		92A8DAED22BE1E8500864BD8 /* VisionPositionEstimateCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9B022BE1E8500864BD8 /* VisionPositionEstimateCommonMsg.swift */; };
+		92A8DAEE22BE1E8500864BD8 /* UavionixADSBOutDynamicStateUavionixEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9B122BE1E8500864BD8 /* UavionixADSBOutDynamicStateUavionixEnum.swift */; };
+		92A8DAEF22BE1E8500864BD8 /* RadioStatusCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9B222BE1E8500864BD8 /* RadioStatusCommonMsg.swift */; };
+		92A8DAF022BE1E8500864BD8 /* CommandAckCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9B322BE1E8500864BD8 /* CommandAckCommonMsg.swift */; };
+		92A8DAF122BE1E8500864BD8 /* GPSRtcmDataCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9B422BE1E8500864BD8 /* GPSRtcmDataCommonMsg.swift */; };
+		92A8DAF222BE1E8500864BD8 /* GPSFixTypeCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9B522BE1E8500864BD8 /* GPSFixTypeCommonEnum.swift */; };
+		92A8DAF322BE1E8500864BD8 /* DeepstallArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9B622BE1E8500864BD8 /* DeepstallArdupilotmegaMsg.swift */; };
+		92A8DAF422BE1E8500864BD8 /* PositionTargetTypemaskCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9B722BE1E8500864BD8 /* PositionTargetTypemaskCommonEnum.swift */; };
+		92A8DAF522BE1E8500864BD8 /* MAVStateCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9B822BE1E8500864BD8 /* MAVStateCommonEnum.swift */; };
+		92A8DAF622BE1E8500864BD8 /* LandingTargetCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9B922BE1E8500864BD8 /* LandingTargetCommonMsg.swift */; };
+		92A8DAF722BE1E8500864BD8 /* GoproRequestStatusArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9BA22BE1E8500864BD8 /* GoproRequestStatusArdupilotmegaEnum.swift */; };
+		92A8DAF822BE1E8500864BD8 /* WinchActionsArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9BB22BE1E8500864BD8 /* WinchActionsArdupilotmegaEnum.swift */; };
+		92A8DAF922BE1E8500864BD8 /* WindArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9BC22BE1E8500864BD8 /* WindArdupilotmegaMsg.swift */; };
+		92A8DAFA22BE1E8500864BD8 /* MissionSetCurrentCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9BD22BE1E8500864BD8 /* MissionSetCurrentCommonMsg.swift */; };
+		92A8DAFB22BE1E8500864BD8 /* GoproHeartbeatArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9BE22BE1E8500864BD8 /* GoproHeartbeatArdupilotmegaMsg.swift */; };
+		92A8DAFC22BE1E8500864BD8 /* HighLatencyCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9BF22BE1E8500864BD8 /* HighLatencyCommonMsg.swift */; };
+		92A8DAFD22BE1E8500864BD8 /* HilRCInputsRawCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9C022BE1E8500864BD8 /* HilRCInputsRawCommonMsg.swift */; };
+		92A8DAFE22BE1E8500864BD8 /* Data32ArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9C122BE1E8500864BD8 /* Data32ArdupilotmegaMsg.swift */; };
+		92A8DAFF22BE1E8500864BD8 /* LimitModuleArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9C222BE1E8500864BD8 /* LimitModuleArdupilotmegaEnum.swift */; };
+		92A8DB0022BE1E8500864BD8 /* MAVTypeCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9C322BE1E8500864BD8 /* MAVTypeCommonEnum.swift */; };
+		92A8DB0122BE1E8500864BD8 /* AltitudeCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9C422BE1E8500864BD8 /* AltitudeCommonMsg.swift */; };
+		92A8DB0222BE1E8500864BD8 /* HilOpticalFlowCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9C522BE1E8500864BD8 /* HilOpticalFlowCommonMsg.swift */; };
+		92A8DB0322BE1E8500864BD8 /* MessageIntervalCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9C622BE1E8500864BD8 /* MessageIntervalCommonMsg.swift */; };
+		92A8DB0422BE1E8500864BD8 /* MAVMissionResultCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9C722BE1E8500864BD8 /* MAVMissionResultCommonEnum.swift */; };
+		92A8DB0522BE1E8500864BD8 /* GoproProtuneExposureArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9C822BE1E8500864BD8 /* GoproProtuneExposureArdupilotmegaEnum.swift */; };
+		92A8DB0622BE1E8500864BD8 /* HilStateQuaternionCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9C922BE1E8500864BD8 /* HilStateQuaternionCommonMsg.swift */; };
+		92A8DB0722BE1E8500864BD8 /* ADSBFlagsCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9CA22BE1E8500864BD8 /* ADSBFlagsCommonEnum.swift */; };
+		92A8DB0822BE1E8500864BD8 /* IcarousTrackBandTypesIcarousEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9CB22BE1E8500864BD8 /* IcarousTrackBandTypesIcarousEnum.swift */; };
+		92A8DB0922BE1E8500864BD8 /* GPSRTKCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9CC22BE1E8500864BD8 /* GPSRTKCommonMsg.swift */; };
+		92A8DB0A22BE1E8500864BD8 /* CameraStatusArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9CD22BE1E8500864BD8 /* CameraStatusArdupilotmegaMsg.swift */; };
+		92A8DB0B22BE1E8500864BD8 /* HilGPSCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9CE22BE1E8500864BD8 /* HilGPSCommonMsg.swift */; };
+		92A8DB0C22BE1E8500864BD8 /* SetModeCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9CF22BE1E8500864BD8 /* SetModeCommonMsg.swift */; };
+		92A8DB0D22BE1E8500864BD8 /* MotorTestOrderCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9D022BE1E8500864BD8 /* MotorTestOrderCommonEnum.swift */; };
+		92A8DB0E22BE1E8500864BD8 /* StatustextCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9D122BE1E8500864BD8 /* StatustextCommonMsg.swift */; };
+		92A8DB0F22BE1E8500864BD8 /* HeartbeatCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9D222BE1E8500864BD8 /* HeartbeatCommonMsg.swift */; };
+		92A8DB1022BE1E8500864BD8 /* UavcanNodeHealthCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9D322BE1E8500864BD8 /* UavcanNodeHealthCommonEnum.swift */; };
+		92A8DB1122BE1E8500864BD8 /* ChangeOperatorControlAckCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9D422BE1E8500864BD8 /* ChangeOperatorControlAckCommonMsg.swift */; };
+		92A8DB1222BE1E8500864BD8 /* RCChannelsScaledCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9D522BE1E8500864BD8 /* RCChannelsScaledCommonMsg.swift */; };
+		92A8DB1322BE1E8500864BD8 /* SimStateCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9D622BE1E8500864BD8 /* SimStateCommonMsg.swift */; };
+		92A8DB1422BE1E8500864BD8 /* ScaledIMU2CommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9D722BE1E8500864BD8 /* ScaledIMU2CommonMsg.swift */; };
+		92A8DB1522BE1E8500864BD8 /* MAVBatteryTypeCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9D822BE1E8500864BD8 /* MAVBatteryTypeCommonEnum.swift */; };
+		92A8DB1622BE1E8500864BD8 /* ScaledPressure3CommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9D922BE1E8500864BD8 /* ScaledPressure3CommonMsg.swift */; };
+		92A8DB1722BE1E8500864BD8 /* ActuatorControlTargetCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9DA22BE1E8500864BD8 /* ActuatorControlTargetCommonMsg.swift */; };
+		92A8DB1822BE1E8500864BD8 /* MAVParamTypeCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9DB22BE1E8500864BD8 /* MAVParamTypeCommonEnum.swift */; };
+		92A8DB1922BE1E8500864BD8 /* PidTuningAxisArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9DC22BE1E8500864BD8 /* PidTuningAxisArdupilotmegaEnum.swift */; };
+		92A8DB1A22BE1E8500864BD8 /* GoproPhotoResolutionArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9DD22BE1E8500864BD8 /* GoproPhotoResolutionArdupilotmegaEnum.swift */; };
+		92A8DB1B22BE1E8500864BD8 /* Data16ArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9DE22BE1E8500864BD8 /* Data16ArdupilotmegaMsg.swift */; };
+		92A8DB1C22BE1E8500864BD8 /* MagCalProgressArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9DF22BE1E8500864BD8 /* MagCalProgressArdupilotmegaMsg.swift */; };
+		92A8DB1D22BE1E8500864BD8 /* UtmFlightStateCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9E022BE1E8500864BD8 /* UtmFlightStateCommonEnum.swift */; };
+		92A8DB1E22BE1E8500864BD8 /* ParamRequestReadCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9E122BE1E8500864BD8 /* ParamRequestReadCommonMsg.swift */; };
+		92A8DB1F22BE1E8500864BD8 /* MAVRemoteLogDataBlockStatusesArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9E222BE1E8500864BD8 /* MAVRemoteLogDataBlockStatusesArdupilotmegaEnum.swift */; };
+		92A8DB2022BE1E8500864BD8 /* MAVMountModeCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9E322BE1E8500864BD8 /* MAVMountModeCommonEnum.swift */; };
+		92A8DB2122BE1E8500864BD8 /* EncapsulatedDataCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9E422BE1E8500864BD8 /* EncapsulatedDataCommonMsg.swift */; };
+		92A8DB2222BE1E8500864BD8 /* RequestDataStreamCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9E522BE1E8500864BD8 /* RequestDataStreamCommonMsg.swift */; };
+		92A8DB2322BE1E8500864BD8 /* MemoryVectCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9E622BE1E8500864BD8 /* MemoryVectCommonMsg.swift */; };
+		92A8DB2422BE1E8500864BD8 /* MavlinkDataStreamTypeCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9E722BE1E8500864BD8 /* MavlinkDataStreamTypeCommonEnum.swift */; };
+		92A8DB2522BE1E8500864BD8 /* GimbalAxisArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9E822BE1E8500864BD8 /* GimbalAxisArdupilotmegaEnum.swift */; };
+		92A8DB2622BE1E8500864BD8 /* Data64ArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9E922BE1E8500864BD8 /* Data64ArdupilotmegaMsg.swift */; };
+		92A8DB2722BE1E8500864BD8 /* SetGPSGlobalOriginCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9EA22BE1E8500864BD8 /* SetGPSGlobalOriginCommonMsg.swift */; };
+		92A8DB2822BE1E8500864BD8 /* MountConfigureArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9EB22BE1E8500864BD8 /* MountConfigureArdupilotmegaMsg.swift */; };
+		92A8DB2922BE1E8500864BD8 /* CameraFeedbackFlagsArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9EC22BE1E8500864BD8 /* CameraFeedbackFlagsArdupilotmegaEnum.swift */; };
+		92A8DB2A22BE1E8500864BD8 /* RCTypeCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9ED22BE1E8500864BD8 /* RCTypeCommonEnum.swift */; };
+		92A8DB2B22BE1E8500864BD8 /* MissionRequestCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9EE22BE1E8500864BD8 /* MissionRequestCommonMsg.swift */; };
+		92A8DB2C22BE1E8500864BD8 /* GoproHeartbeatFlagsArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9EF22BE1E8500864BD8 /* GoproHeartbeatFlagsArdupilotmegaEnum.swift */; };
+		92A8DB2D22BE1E8500864BD8 /* CommandLongCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9F022BE1E8500864BD8 /* CommandLongCommonMsg.swift */; };
+		92A8DB2E22BE1E8500864BD8 /* GoproResolutionArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9F122BE1E8500864BD8 /* GoproResolutionArdupilotmegaEnum.swift */; };
+		92A8DB2F22BE1E8500864BD8 /* ADSBAltitudeTypeCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9F222BE1E8500864BD8 /* ADSBAltitudeTypeCommonEnum.swift */; };
+		92A8DB3022BE1E8500864BD8 /* AttitudeQuaternionCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9F322BE1E8500864BD8 /* AttitudeQuaternionCommonMsg.swift */; };
+		92A8DB3122BE1E8500864BD8 /* ParamAckCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9F422BE1E8500864BD8 /* ParamAckCommonEnum.swift */; };
+		92A8DB3222BE1E8500864BD8 /* IcarousFmsStateIcarousEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9F522BE1E8500864BD8 /* IcarousFmsStateIcarousEnum.swift */; };
+		92A8DB3322BE1E8500864BD8 /* MAVModeGimbalArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9F622BE1E8500864BD8 /* MAVModeGimbalArdupilotmegaEnum.swift */; };
+		92A8DB3422BE1E8500864BD8 /* GoproSetRequestArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9F722BE1E8500864BD8 /* GoproSetRequestArdupilotmegaMsg.swift */; };
+		92A8DB3522BE1E8500864BD8 /* DebugCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9F822BE1E8500864BD8 /* DebugCommonMsg.swift */; };
+		92A8DB3622BE1E8500864BD8 /* GlobalPositionIntCovCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9F922BE1E8500864BD8 /* GlobalPositionIntCovCommonMsg.swift */; };
+		92A8DB3722BE1E8500864BD8 /* GlobalPositionIntCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9FA22BE1E8500864BD8 /* GlobalPositionIntCommonMsg.swift */; };
+		92A8DB3822BE1E8500864BD8 /* LedControlPatternArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9FB22BE1E8500864BD8 /* LedControlPatternArdupilotmegaEnum.swift */; };
+		92A8DB3922BE1E8500864BD8 /* HilStateCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9FC22BE1E8500864BD8 /* HilStateCommonMsg.swift */; };
+		92A8DB3A22BE1E8500864BD8 /* ScaledPressure2CommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9FD22BE1E8500864BD8 /* ScaledPressure2CommonMsg.swift */; };
+		92A8DB3B22BE1E8500864BD8 /* SetMagOffsetsArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9FE22BE1E8500864BD8 /* SetMagOffsetsArdupilotmegaMsg.swift */; };
+		92A8DB3C22BE1E8500864BD8 /* ScaledImu3CommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8D9FF22BE1E8500864BD8 /* ScaledImu3CommonMsg.swift */; };
+		92A8DB3D22BE1E8500864BD8 /* GoproCaptureModeArdupilotmegaEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8DA0022BE1E8500864BD8 /* GoproCaptureModeArdupilotmegaEnum.swift */; };
+		92A8DB3E22BE1E8500864BD8 /* GimbalControlArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8DA0122BE1E8500864BD8 /* GimbalControlArdupilotmegaMsg.swift */; };
+		92A8DB3F22BE1E8500864BD8 /* MAVCollisionSrcCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8DA0222BE1E8500864BD8 /* MAVCollisionSrcCommonEnum.swift */; };
+		92A8DB4022BE1E8500864BD8 /* FollowTargetCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8DA0322BE1E8500864BD8 /* FollowTargetCommonMsg.swift */; };
+		92A8DB4122BE1E8500864BD8 /* RallyPointArdupilotmegaMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8DA0422BE1E8500864BD8 /* RallyPointArdupilotmegaMsg.swift */; };
+		92A8DB4222BE1E8500864BD8 /* MAVComponentCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8DA0522BE1E8500864BD8 /* MAVComponentCommonEnum.swift */; };
+		92A8DB4322BE1E8500864BD8 /* AttPosMocapCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8DA0622BE1E8500864BD8 /* AttPosMocapCommonMsg.swift */; };
+		92A8DB4422BE1E8500864BD8 /* PowerStatusCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8DA0722BE1E8500864BD8 /* PowerStatusCommonMsg.swift */; };
+		92A8DB4522BE1E8500864BD8 /* MAVPowerStatusCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8DA0822BE1E8500864BD8 /* MAVPowerStatusCommonEnum.swift */; };
+		92A8DB4622BE1E8500864BD8 /* ControlSystemStateCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8DA0922BE1E8500864BD8 /* ControlSystemStateCommonMsg.swift */; };
+		92A8DB4722BE1E8500864BD8 /* TerrainCheckCommonMsg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8DA0A22BE1E8500864BD8 /* TerrainCheckCommonMsg.swift */; };
+		92A8DB4822BE1E8500864BD8 /* MAVBatteryFunctionCommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A8DA0B22BE1E8500864BD8 /* MAVBatteryFunctionCommonEnum.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92040E8B22B876CA00B5DE64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92040E6E22B876C900B5DE64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92040E7522B876C900B5DE64;
+			remoteInfo = swift_link;
+		};
+		92040E9622B876CA00B5DE64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92040E6E22B876C900B5DE64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92040E7522B876C900B5DE64;
+			remoteInfo = swift_link;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92040E7622B876C900B5DE64 /* swift_link.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_link.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92040E7922B876C900B5DE64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92040E7B22B876C900B5DE64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92040E8022B876CA00B5DE64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92040E8322B876CA00B5DE64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92040E8522B876CA00B5DE64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92040E8A22B876CA00B5DE64 /* swift_linkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift_linkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92040E8E22B876CA00B5DE64 /* swift_linkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_linkTests.swift; sourceTree = "<group>"; };
+		92040E9022B876CA00B5DE64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92040E9522B876CA00B5DE64 /* swift_linkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift_linkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92040E9922B876CA00B5DE64 /* swift_linkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_linkUITests.swift; sourceTree = "<group>"; };
+		92040E9B22B876CA00B5DE64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9204114822B8F70200B5DE64 /* MacroConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacroConfig.swift; sourceTree = "<group>"; };
+		9204114A22B8F73C00B5DE64 /* RSBaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSBaseNavigationController.swift; sourceTree = "<group>"; };
+		92A8D68222BE18DC00864BD8 /* MAVLinkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAVLinkManager.swift; sourceTree = "<group>"; };
+		92A8D68422BE195200864BD8 /* MAVLinkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAVLinkModel.swift; sourceTree = "<group>"; };
+		92A8D8CD22BE1E8400864BD8 /* MAVLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVLink.swift; sourceTree = "<group>"; };
+		92A8D8CF22BE1E8400864BD8 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		92A8D8D122BE1E8400864BD8 /* SubModeArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubModeArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D8D222BE1E8400864BD8 /* RCChannelsRawCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCChannelsRawCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D8D322BE1E8400864BD8 /* OpticalFlowRadCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpticalFlowRadCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D8D422BE1E8400864BD8 /* ParachuteActionCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParachuteActionCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D8D522BE1E8400864BD8 /* GoproSetResponseArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoproSetResponseArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D8D622BE1E8400864BD8 /* RemoteLogBlockStatusArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteLogBlockStatusArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D8D722BE1E8400864BD8 /* CollisionCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollisionCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D8D822BE1E8400864BD8 /* ParamSetCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParamSetCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D8D922BE1E8400864BD8 /* EstimatorStatusCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EstimatorStatusCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D8DA22BE1E8400864BD8 /* MagCalStatusArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagCalStatusArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D8DB22BE1E8400864BD8 /* MAVMissionTypeCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVMissionTypeCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D8DC22BE1E8400864BD8 /* GoproModelArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoproModelArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D8DD22BE1E8400864BD8 /* GimbalAxisCalibrationStatusArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GimbalAxisCalibrationStatusArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D8DE22BE1E8400864BD8 /* AttitudeCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttitudeCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D8DF22BE1E8400864BD8 /* MissionClearAllCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionClearAllCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D8E022BE1E8400864BD8 /* Ahrs3ArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ahrs3ArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D8E122BE1E8400864BD8 /* MountStatusArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MountStatusArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D8E222BE1E8400864BD8 /* PlaneModeArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaneModeArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D8E322BE1E8400864BD8 /* PingCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PingCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D8E422BE1E8400864BD8 /* NavControllerOutputCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavControllerOutputCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D8E522BE1E8400864BD8 /* HlFailureFlagCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HlFailureFlagCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D8E622BE1E8400864BD8 /* GPSInputIgnoreFlagsCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPSInputIgnoreFlagsCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D8E722BE1E8400864BD8 /* VfrHudCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VfrHudCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D8E822BE1E8400864BD8 /* ManualControlCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManualControlCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D8E922BE1E8400864BD8 /* MissionItemReachedCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionItemReachedCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D8EA22BE1E8400864BD8 /* LogRequestEndCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogRequestEndCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D8EB22BE1E8400864BD8 /* GPSGlobalOriginCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPSGlobalOriginCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D8EC22BE1E8400864BD8 /* LedControlArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LedControlArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D8ED22BE1E8400864BD8 /* MissionRequestPartialListCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionRequestPartialListCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D8EE22BE1E8400864BD8 /* UavcanNodeModeCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UavcanNodeModeCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D8EF22BE1E8400864BD8 /* CommandIntCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandIntCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D8F022BE1E8400864BD8 /* MAVSysStatusSensorCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVSysStatusSensorCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D8F122BE1E8400864BD8 /* RadioArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D8F222BE1E8400864BD8 /* SafetySetAllowedAreaCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafetySetAllowedAreaCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D8F322BE1E8400864BD8 /* MAVModeCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVModeCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D8F422BE1E8400864BD8 /* RCChannelsOverrideCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCChannelsOverrideCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D8F522BE1E8400864BD8 /* CameraModeCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraModeCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D8F622BE1E8400864BD8 /* UavionixADSBRfHealthUavionixEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UavionixADSBRfHealthUavionixEnum.swift; sourceTree = "<group>"; };
+		92A8D8F722BE1E8400864BD8 /* LocalPositionNEDSystemGlobalOffsetCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalPositionNEDSystemGlobalOffsetCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D8F822BE1E8400864BD8 /* PrecisionLandModeCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrecisionLandModeCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D8F922BE1E8400864BD8 /* MissionRequestIntCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionRequestIntCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D8FA22BE1E8400864BD8 /* VideoStreamStatusFlagsCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoStreamStatusFlagsCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D8FB22BE1E8400864BD8 /* PidTuningArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PidTuningArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D8FC22BE1E8400864BD8 /* UavionixADSBOutDynamicGPSFixUavionixEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UavionixADSBOutDynamicGPSFixUavionixEnum.swift; sourceTree = "<group>"; };
+		92A8D8FD22BE1E8400864BD8 /* RemoteLogDataBlockArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteLogDataBlockArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D8FE22BE1E8400864BD8 /* DataStreamCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStreamCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D8FF22BE1E8400864BD8 /* UavionixADSBOutCfgAircraftSizeUavionixEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UavionixADSBOutCfgAircraftSizeUavionixEnum.swift; sourceTree = "<group>"; };
+		92A8D90022BE1E8400864BD8 /* SetPositionTargetLocalNEDCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetPositionTargetLocalNEDCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D90122BE1E8400864BD8 /* MagCalReportArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagCalReportArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D90222BE1E8400864BD8 /* CameraStatusTypesArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraStatusTypesArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D90322BE1E8400864BD8 /* MAVVTOLStateCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVVTOLStateCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D90422BE1E8400864BD8 /* GlobalVisionPositionEstimateCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalVisionPositionEstimateCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D90522BE1E8400864BD8 /* GoproProtuneWhiteBalanceArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoproProtuneWhiteBalanceArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D90622BE1E8400864BD8 /* UavionixADSBEmergencyStatusUavionixEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UavionixADSBEmergencyStatusUavionixEnum.swift; sourceTree = "<group>"; };
+		92A8D90722BE1E8400864BD8 /* MAVSeverityCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVSeverityCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D90822BE1E8400864BD8 /* MAVCmdArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVCmdArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D90922BE1E8400864BD8 /* GoproCommandArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoproCommandArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D90A22BE1E8400864BD8 /* HwstatusArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HwstatusArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D90B22BE1E8400864BD8 /* LinkNodeStatusCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkNodeStatusCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D90C22BE1E8400864BD8 /* ADSBEmitterTypeCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADSBEmitterTypeCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D90D22BE1E8400864BD8 /* LogEntryCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogEntryCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D90E22BE1E8400864BD8 /* RangefinderArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangefinderArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D90F22BE1E8400864BD8 /* DigicamControlArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DigicamControlArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D91022BE1E8400864BD8 /* GimbalTorqueCmdReportArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GimbalTorqueCmdReportArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D91122BE1E8400864BD8 /* LimitsStatusArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LimitsStatusArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D91222BE1E8400864BD8 /* MAVLandedStateCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVLandedStateCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D91322BE1E8400864BD8 /* TerrainRequestCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TerrainRequestCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D91422BE1E8400864BD8 /* ExtendedSysStateCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtendedSysStateCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D91522BE1E8400864BD8 /* MissionRequestListCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionRequestListCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D91622BE1E8400864BD8 /* RoverModeArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoverModeArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D91722BE1E8400864BD8 /* VideoStreamTypeCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoStreamTypeCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D91822BE1E8400864BD8 /* ParamValueCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParamValueCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D91922BE1E8400864BD8 /* CompassmotStatusArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompassmotStatusArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D91A22BE1E8400864BD8 /* TimesyncCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimesyncCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D91B22BE1E8400864BD8 /* SimstateArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimstateArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D91C22BE1E8400864BD8 /* GoproProtuneGainArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoproProtuneGainArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D91D22BE1E8400864BD8 /* MissionItemIntCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionItemIntCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D91E22BE1E8400864BD8 /* AirspeedAutocalArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirspeedAutocalArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D91F22BE1E8400864BD8 /* DistanceSensorCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistanceSensorCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D92022BE1E8400864BD8 /* SetFocusTypeCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetFocusTypeCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D92122BE1E8400864BD8 /* CellularNetworkStatusFlagCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellularNetworkStatusFlagCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D92222BE1E8400864BD8 /* SerialControlFlagCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerialControlFlagCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D92322BE1E8400864BD8 /* PositionTargetLocalNEDCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionTargetLocalNEDCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D92422BE1E8400864BD8 /* HomePositionCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePositionCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D92522BE1E8400864BD8 /* GimbalAxisCalibrationRequiredArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GimbalAxisCalibrationRequiredArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D92622BE1E8400864BD8 /* EstimatorStatusFlagsCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EstimatorStatusFlagsCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D92722BE1E8400864BD8 /* LimitsStateArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LimitsStateArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D92822BE1E8400864BD8 /* LogRequestListCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogRequestListCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D92922BE1E8400864BD8 /* SysStatusCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SysStatusCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D92A22BE1E8400864BD8 /* MAVDistanceSensorCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVDistanceSensorCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D92B22BE1E8400864BD8 /* MAVCollisionThreatLevelCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVCollisionThreatLevelCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D92C22BE1E8400864BD8 /* HilControlsCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HilControlsCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D92D22BE1E8400864BD8 /* ChangeOperatorControlCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeOperatorControlCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D92E22BE1E8400864BD8 /* AutopilotVersionRequestArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutopilotVersionRequestArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D92F22BE1E8400864BD8 /* MAVROICommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVROICommonEnum.swift; sourceTree = "<group>"; };
+		92A8D93022BE1E8400864BD8 /* MAVRemoteLogDataBlockCommandsArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVRemoteLogDataBlockCommandsArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D93122BE1E8400864BD8 /* DigicamConfigureArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DigicamConfigureArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D93222BE1E8400864BD8 /* GoproFieldOfViewArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoproFieldOfViewArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D93322BE1E8400864BD8 /* AttitudeTargetCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttitudeTargetCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D93422BE1E8400864BD8 /* ScaledIMUCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaledIMUCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D93522BE1E8400864BD8 /* AttitudeQuaternionCovCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttitudeQuaternionCovCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D93622BE1E8400864BD8 /* GPSInputCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPSInputCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D93722BE1E8400864BD8 /* FirmwareVersionTypeCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirmwareVersionTypeCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D93822BE1E8400864BD8 /* MAVFrameCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVFrameCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D93922BE1E8400864BD8 /* GPS2RTKCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPS2RTKCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D93A22BE1E8400864BD8 /* MissionWritePartialListCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionWritePartialListCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D93B22BE1E8400864BD8 /* MAVCollisionActionCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVCollisionActionCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D93C22BE1E8400864BD8 /* LocalPositionNEDCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalPositionNEDCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D93D22BE1E8400864BD8 /* HighresIMUCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighresIMUCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D93E22BE1E8400864BD8 /* MAVParamExtTypeCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVParamExtTypeCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D93F22BE1E8400864BD8 /* SensorOffsetsArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorOffsetsArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D94022BE1E8400864BD8 /* TerrainDataCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TerrainDataCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D94122BE1E8400864BD8 /* NamedValueIntCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamedValueIntCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D94222BE1E8400864BD8 /* SafetyAllowedAreaCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafetyAllowedAreaCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D94322BE1E8400864BD8 /* GoproGetRequestArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoproGetRequestArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D94422BE1E8400864BD8 /* CopterModeArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CopterModeArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D94522BE1E8400864BD8 /* MissionItemCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionItemCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D94622BE1E8400864BD8 /* FenceBreachCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FenceBreachCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D94722BE1E8400864BD8 /* TerrainReportCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TerrainReportCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D94822BE1E8400864BD8 /* CameraTriggerCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraTriggerCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D94922BE1E8400864BD8 /* GPSStatusCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPSStatusCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D94A22BE1E8400864BD8 /* CellularNetworkRadioTypeCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellularNetworkRadioTypeCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D94B22BE1E8400864BD8 /* GPSInjectDataCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPSInjectDataCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D94C22BE1E8400864BD8 /* MAVSmartBatteryFaultCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVSmartBatteryFaultCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D94D22BE1E8400864BD8 /* AccelcalVehiclePosArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccelcalVehiclePosArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D94E22BE1E8400864BD8 /* MeminfoArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeminfoArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D94F22BE1E8400864BD8 /* ResourceRequestCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceRequestCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D95022BE1E8400864BD8 /* MAVGotoCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVGotoCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D95122BE1E8400864BD8 /* HighLatency2CommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighLatency2CommonMsg.swift; sourceTree = "<group>"; };
+		92A8D95222BE1E8400864BD8 /* RpmArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RpmArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D95322BE1E8400864BD8 /* MotorTestThrottleTypeCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotorTestThrottleTypeCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D95422BE1E8400864BD8 /* AhrsArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AhrsArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D95522BE1E8400864BD8 /* StorageStatusCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageStatusCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D95622BE1E8400864BD8 /* ADSBVehicleCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADSBVehicleCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D95722BE1E8400864BD8 /* FileTransferProtocolCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileTransferProtocolCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D95822BE1E8400864BD8 /* RawPressureCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RawPressureCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D95922BE1E8400864BD8 /* GoproProtuneSharpnessArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoproProtuneSharpnessArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D95A22BE1E8400864BD8 /* DeviceOpBustypeArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceOpBustypeArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D95B22BE1E8400864BD8 /* GoproBurstRateArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoproBurstRateArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D95C22BE1E8400864BD8 /* HilSensorCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HilSensorCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D95D22BE1E8400864BD8 /* GoproVideoSettingsFlagsArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoproVideoSettingsFlagsArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D95E22BE1E8400864BD8 /* FencePointArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FencePointArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D95F22BE1E8400864BD8 /* SetPositionTargetGlobalIntCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetPositionTargetGlobalIntCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D96022BE1E8400864BD8 /* MountControlArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MountControlArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D96122BE1E8400864BD8 /* V2ExtensionCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = V2ExtensionCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D96222BE1E8400864BD8 /* ParamMapRCCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParamMapRCCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D96322BE1E8400864BD8 /* LogDataCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogDataCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D96422BE1E8400864BD8 /* MAVProtocolCapabilityCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVProtocolCapabilityCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D96522BE1E8400864BD8 /* UavionixADSBOutRfSelectUavionixEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UavionixADSBOutRfSelectUavionixEnum.swift; sourceTree = "<group>"; };
+		92A8D96622BE1E8400864BD8 /* LandingTargetTypeCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingTargetTypeCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D96722BE1E8400864BD8 /* ManualSetpointCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManualSetpointCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D96822BE1E8400864BD8 /* MAVArmAuthDeniedReasonCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVArmAuthDeniedReasonCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D96922BE1E8400864BD8 /* WindCovCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindCovCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D96A22BE1E8400864BD8 /* GPSRawIntCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPSRawIntCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D96B22BE1E8400864BD8 /* MissionCurrentCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionCurrentCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D96C22BE1E8400864BD8 /* DebugVectCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugVectCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D96D22BE1E8400864BD8 /* UavionixADSBOutCfgGPSOffsetLatUavionixEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UavionixADSBOutCfgGPSOffsetLatUavionixEnum.swift; sourceTree = "<group>"; };
+		92A8D96E22BE1E8400864BD8 /* DataTransmissionHandshakeCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTransmissionHandshakeCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D96F22BE1E8400864BD8 /* UavionixADSBOutCfgGPSOffsetLonUavionixEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UavionixADSBOutCfgGPSOffsetLonUavionixEnum.swift; sourceTree = "<group>"; };
+		92A8D97022BE1E8400864BD8 /* MAVBatteryChargeStateCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVBatteryChargeStateCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D97122BE1E8400864BD8 /* GoproGetResponseArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoproGetResponseArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D97222BE1E8400864BD8 /* MAVModeFlagCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVModeFlagCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D97322BE1E8400864BD8 /* MissionAckCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionAckCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D97422BE1E8400864BD8 /* VisionSpeedEstimateCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisionSpeedEstimateCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D97522BE1E8400864BD8 /* UtmDataAvailFlagsCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtmDataAvailFlagsCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D97622BE1E8400864BD8 /* CameraFeedbackArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraFeedbackArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D97722BE1E8400864BD8 /* ApAdcArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApAdcArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D97822BE1E8400864BD8 /* ScaledPressureCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaledPressureCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D97922BE1E8400864BD8 /* VibrationCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VibrationCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D97A22BE1E8400864BD8 /* RallyFlagsArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RallyFlagsArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D97B22BE1E8400864BD8 /* FenceFetchPointArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FenceFetchPointArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D97C22BE1E8400864BD8 /* BatteryStatusCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryStatusCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D97D22BE1E8400864BD8 /* SetHomePositionCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetHomePositionCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D97E22BE1E8400864BD8 /* SerialControlCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerialControlCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D97F22BE1E8400864BD8 /* GoproHeartbeatStatusArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoproHeartbeatStatusArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D98022BE1E8400864BD8 /* MAVModeFlagDecodePositionCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVModeFlagDecodePositionCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D98122BE1E8400864BD8 /* MAVDataStreamCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVDataStreamCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D98222BE1E8400864BD8 /* PositionTargetGlobalIntCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionTargetGlobalIntCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D98322BE1E8400864BD8 /* Data96ArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data96ArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D98422BE1E8500864BD8 /* ServoOutputRawCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServoOutputRawCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D98522BE1E8500864BD8 /* LocalPositionNEDCovCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalPositionNEDCovCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D98622BE1E8500864BD8 /* EkfStatusReportArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EkfStatusReportArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D98722BE1E8500864BD8 /* RTKBaselineCoordinateSystemCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RTKBaselineCoordinateSystemCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D98822BE1E8500864BD8 /* FenceStatusArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FenceStatusArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D98922BE1E8500864BD8 /* GoproProtuneColourArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoproProtuneColourArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D98A22BE1E8500864BD8 /* MAVSensorOrientationCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVSensorOrientationCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D98B22BE1E8500864BD8 /* MissionCountCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionCountCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D98C22BE1E8500864BD8 /* Ahrs2ArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ahrs2ArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D98D22BE1E8500864BD8 /* CameraCapFlagsCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraCapFlagsCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D98E22BE1E8500864BD8 /* MAVEstimatorTypeCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVEstimatorTypeCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D98F22BE1E8500864BD8 /* FenceActionCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FenceActionCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D99022BE1E8500864BD8 /* MAVAutopilotCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVAutopilotCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D99122BE1E8500864BD8 /* VTOLTransitionHeadingCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VTOLTransitionHeadingCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D99222BE1E8500864BD8 /* Battery2ArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Battery2ArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D99322BE1E8500864BD8 /* MAVCmdAckCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVCmdAckCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D99422BE1E8500864BD8 /* AutopilotVersionCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutopilotVersionCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D99522BE1E8500864BD8 /* ViconPositionEstimateCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViconPositionEstimateCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D99622BE1E8500864BD8 /* OpticalFlowCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpticalFlowCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D99722BE1E8500864BD8 /* GripperActionsArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GripperActionsArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D99822BE1E8500864BD8 /* MAVDoRepositionFlagsCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVDoRepositionFlagsCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D99922BE1E8500864BD8 /* GoproFrameRateArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoproFrameRateArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D99A22BE1E8500864BD8 /* RallyFetchPointArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RallyFetchPointArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D99B22BE1E8500864BD8 /* DeepstallStageArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeepstallStageArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D99C22BE1E8500864BD8 /* AuthKeyCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthKeyCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D99D22BE1E8500864BD8 /* GimbalReportArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GimbalReportArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D99E22BE1E8500864BD8 /* SetAttitudeTargetCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetAttitudeTargetCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D99F22BE1E8500864BD8 /* LogEraseCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogEraseCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9A022BE1E8500864BD8 /* TrackerModeArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackerModeArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D9A122BE1E8500864BD8 /* SetActuatorControlTargetCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetActuatorControlTargetCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9A222BE1E8500864BD8 /* CameraZoomTypeCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraZoomTypeCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D9A322BE1E8500864BD8 /* EkfStatusFlagsArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EkfStatusFlagsArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D9A422BE1E8500864BD8 /* SystemTimeCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemTimeCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9A522BE1E8500864BD8 /* MissionChangedCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionChangedCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9A622BE1E8500864BD8 /* GPS2RawCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPS2RawCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9A722BE1E8500864BD8 /* RawIMUCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RawIMUCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9A822BE1E8500864BD8 /* RCChannelsCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCChannelsCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9A922BE1E8500864BD8 /* MAVResultCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVResultCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D9AA22BE1E8500864BD8 /* HilActuatorControlsCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HilActuatorControlsCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9AB22BE1E8500864BD8 /* GoproChargingArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoproChargingArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D9AC22BE1E8500864BD8 /* NamedValueFloatCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamedValueFloatCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9AD22BE1E8500864BD8 /* SerialControlDevCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerialControlDevCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D9AE22BE1E8500864BD8 /* LogRequestDataCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogRequestDataCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9AF22BE1E8500864BD8 /* ParamRequestListCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParamRequestListCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9B022BE1E8500864BD8 /* VisionPositionEstimateCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisionPositionEstimateCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9B122BE1E8500864BD8 /* UavionixADSBOutDynamicStateUavionixEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UavionixADSBOutDynamicStateUavionixEnum.swift; sourceTree = "<group>"; };
+		92A8D9B222BE1E8500864BD8 /* RadioStatusCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioStatusCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9B322BE1E8500864BD8 /* CommandAckCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandAckCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9B422BE1E8500864BD8 /* GPSRtcmDataCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPSRtcmDataCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9B522BE1E8500864BD8 /* GPSFixTypeCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPSFixTypeCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D9B622BE1E8500864BD8 /* DeepstallArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeepstallArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D9B722BE1E8500864BD8 /* PositionTargetTypemaskCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionTargetTypemaskCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D9B822BE1E8500864BD8 /* MAVStateCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVStateCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D9B922BE1E8500864BD8 /* LandingTargetCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingTargetCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9BA22BE1E8500864BD8 /* GoproRequestStatusArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoproRequestStatusArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D9BB22BE1E8500864BD8 /* WinchActionsArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinchActionsArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D9BC22BE1E8500864BD8 /* WindArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D9BD22BE1E8500864BD8 /* MissionSetCurrentCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionSetCurrentCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9BE22BE1E8500864BD8 /* GoproHeartbeatArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoproHeartbeatArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D9BF22BE1E8500864BD8 /* HighLatencyCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighLatencyCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9C022BE1E8500864BD8 /* HilRCInputsRawCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HilRCInputsRawCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9C122BE1E8500864BD8 /* Data32ArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data32ArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D9C222BE1E8500864BD8 /* LimitModuleArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LimitModuleArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D9C322BE1E8500864BD8 /* MAVTypeCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVTypeCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D9C422BE1E8500864BD8 /* AltitudeCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AltitudeCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9C522BE1E8500864BD8 /* HilOpticalFlowCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HilOpticalFlowCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9C622BE1E8500864BD8 /* MessageIntervalCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageIntervalCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9C722BE1E8500864BD8 /* MAVMissionResultCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVMissionResultCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D9C822BE1E8500864BD8 /* GoproProtuneExposureArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoproProtuneExposureArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D9C922BE1E8500864BD8 /* HilStateQuaternionCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HilStateQuaternionCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9CA22BE1E8500864BD8 /* ADSBFlagsCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADSBFlagsCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D9CB22BE1E8500864BD8 /* IcarousTrackBandTypesIcarousEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IcarousTrackBandTypesIcarousEnum.swift; sourceTree = "<group>"; };
+		92A8D9CC22BE1E8500864BD8 /* GPSRTKCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPSRTKCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9CD22BE1E8500864BD8 /* CameraStatusArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraStatusArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D9CE22BE1E8500864BD8 /* HilGPSCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HilGPSCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9CF22BE1E8500864BD8 /* SetModeCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetModeCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9D022BE1E8500864BD8 /* MotorTestOrderCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotorTestOrderCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D9D122BE1E8500864BD8 /* StatustextCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatustextCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9D222BE1E8500864BD8 /* HeartbeatCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartbeatCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9D322BE1E8500864BD8 /* UavcanNodeHealthCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UavcanNodeHealthCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D9D422BE1E8500864BD8 /* ChangeOperatorControlAckCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeOperatorControlAckCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9D522BE1E8500864BD8 /* RCChannelsScaledCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCChannelsScaledCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9D622BE1E8500864BD8 /* SimStateCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimStateCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9D722BE1E8500864BD8 /* ScaledIMU2CommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaledIMU2CommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9D822BE1E8500864BD8 /* MAVBatteryTypeCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVBatteryTypeCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D9D922BE1E8500864BD8 /* ScaledPressure3CommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaledPressure3CommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9DA22BE1E8500864BD8 /* ActuatorControlTargetCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActuatorControlTargetCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9DB22BE1E8500864BD8 /* MAVParamTypeCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVParamTypeCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D9DC22BE1E8500864BD8 /* PidTuningAxisArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PidTuningAxisArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D9DD22BE1E8500864BD8 /* GoproPhotoResolutionArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoproPhotoResolutionArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D9DE22BE1E8500864BD8 /* Data16ArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data16ArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D9DF22BE1E8500864BD8 /* MagCalProgressArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagCalProgressArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D9E022BE1E8500864BD8 /* UtmFlightStateCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtmFlightStateCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D9E122BE1E8500864BD8 /* ParamRequestReadCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParamRequestReadCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9E222BE1E8500864BD8 /* MAVRemoteLogDataBlockStatusesArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVRemoteLogDataBlockStatusesArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D9E322BE1E8500864BD8 /* MAVMountModeCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVMountModeCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D9E422BE1E8500864BD8 /* EncapsulatedDataCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncapsulatedDataCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9E522BE1E8500864BD8 /* RequestDataStreamCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestDataStreamCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9E622BE1E8500864BD8 /* MemoryVectCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryVectCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9E722BE1E8500864BD8 /* MavlinkDataStreamTypeCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MavlinkDataStreamTypeCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D9E822BE1E8500864BD8 /* GimbalAxisArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GimbalAxisArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D9E922BE1E8500864BD8 /* Data64ArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data64ArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D9EA22BE1E8500864BD8 /* SetGPSGlobalOriginCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetGPSGlobalOriginCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9EB22BE1E8500864BD8 /* MountConfigureArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MountConfigureArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D9EC22BE1E8500864BD8 /* CameraFeedbackFlagsArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraFeedbackFlagsArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D9ED22BE1E8500864BD8 /* RCTypeCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCTypeCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D9EE22BE1E8500864BD8 /* MissionRequestCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionRequestCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9EF22BE1E8500864BD8 /* GoproHeartbeatFlagsArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoproHeartbeatFlagsArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D9F022BE1E8500864BD8 /* CommandLongCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommandLongCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9F122BE1E8500864BD8 /* GoproResolutionArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoproResolutionArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D9F222BE1E8500864BD8 /* ADSBAltitudeTypeCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADSBAltitudeTypeCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D9F322BE1E8500864BD8 /* AttitudeQuaternionCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttitudeQuaternionCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9F422BE1E8500864BD8 /* ParamAckCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParamAckCommonEnum.swift; sourceTree = "<group>"; };
+		92A8D9F522BE1E8500864BD8 /* IcarousFmsStateIcarousEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IcarousFmsStateIcarousEnum.swift; sourceTree = "<group>"; };
+		92A8D9F622BE1E8500864BD8 /* MAVModeGimbalArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVModeGimbalArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D9F722BE1E8500864BD8 /* GoproSetRequestArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoproSetRequestArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D9F822BE1E8500864BD8 /* DebugCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9F922BE1E8500864BD8 /* GlobalPositionIntCovCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalPositionIntCovCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9FA22BE1E8500864BD8 /* GlobalPositionIntCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalPositionIntCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9FB22BE1E8500864BD8 /* LedControlPatternArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LedControlPatternArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8D9FC22BE1E8500864BD8 /* HilStateCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HilStateCommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9FD22BE1E8500864BD8 /* ScaledPressure2CommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaledPressure2CommonMsg.swift; sourceTree = "<group>"; };
+		92A8D9FE22BE1E8500864BD8 /* SetMagOffsetsArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetMagOffsetsArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8D9FF22BE1E8500864BD8 /* ScaledImu3CommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaledImu3CommonMsg.swift; sourceTree = "<group>"; };
+		92A8DA0022BE1E8500864BD8 /* GoproCaptureModeArdupilotmegaEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoproCaptureModeArdupilotmegaEnum.swift; sourceTree = "<group>"; };
+		92A8DA0122BE1E8500864BD8 /* GimbalControlArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GimbalControlArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8DA0222BE1E8500864BD8 /* MAVCollisionSrcCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVCollisionSrcCommonEnum.swift; sourceTree = "<group>"; };
+		92A8DA0322BE1E8500864BD8 /* FollowTargetCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowTargetCommonMsg.swift; sourceTree = "<group>"; };
+		92A8DA0422BE1E8500864BD8 /* RallyPointArdupilotmegaMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RallyPointArdupilotmegaMsg.swift; sourceTree = "<group>"; };
+		92A8DA0522BE1E8500864BD8 /* MAVComponentCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVComponentCommonEnum.swift; sourceTree = "<group>"; };
+		92A8DA0622BE1E8500864BD8 /* AttPosMocapCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttPosMocapCommonMsg.swift; sourceTree = "<group>"; };
+		92A8DA0722BE1E8500864BD8 /* PowerStatusCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerStatusCommonMsg.swift; sourceTree = "<group>"; };
+		92A8DA0822BE1E8500864BD8 /* MAVPowerStatusCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVPowerStatusCommonEnum.swift; sourceTree = "<group>"; };
+		92A8DA0922BE1E8500864BD8 /* ControlSystemStateCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlSystemStateCommonMsg.swift; sourceTree = "<group>"; };
+		92A8DA0A22BE1E8500864BD8 /* TerrainCheckCommonMsg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TerrainCheckCommonMsg.swift; sourceTree = "<group>"; };
+		92A8DA0B22BE1E8500864BD8 /* MAVBatteryFunctionCommonEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAVBatteryFunctionCommonEnum.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92040E7322B876C900B5DE64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92040E8722B876CA00B5DE64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92040E9222B876CA00B5DE64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92040E6D22B876C900B5DE64 = {
+			isa = PBXGroup;
+			children = (
+				92040E7822B876C900B5DE64 /* swift_link */,
+				92040E8D22B876CA00B5DE64 /* swift_linkTests */,
+				92040E9822B876CA00B5DE64 /* swift_linkUITests */,
+				92040E7722B876C900B5DE64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92040E7722B876C900B5DE64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92040E7622B876C900B5DE64 /* swift_link.app */,
+				92040E8A22B876CA00B5DE64 /* swift_linkTests.xctest */,
+				92040E9522B876CA00B5DE64 /* swift_linkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92040E7822B876C900B5DE64 /* swift_link */ = {
+			isa = PBXGroup;
+			children = (
+				92A8D8CD22BE1E8400864BD8 /* MAVLink.swift */,
+				92A8D8CE22BE1E8400864BD8 /* MAVLink */,
+				92040E7922B876C900B5DE64 /* AppDelegate.swift */,
+				92A8D68422BE195200864BD8 /* MAVLinkModel.swift */,
+				92A8D68222BE18DC00864BD8 /* MAVLinkManager.swift */,
+				92040E7B22B876C900B5DE64 /* ViewController.swift */,
+				9204114822B8F70200B5DE64 /* MacroConfig.swift */,
+				9204114A22B8F73C00B5DE64 /* RSBaseNavigationController.swift */,
+				92040E8022B876CA00B5DE64 /* Assets.xcassets */,
+				92040E8222B876CA00B5DE64 /* LaunchScreen.storyboard */,
+				92040E8522B876CA00B5DE64 /* Info.plist */,
+			);
+			path = swift_link;
+			sourceTree = "<group>";
+		};
+		92040E8D22B876CA00B5DE64 /* swift_linkTests */ = {
+			isa = PBXGroup;
+			children = (
+				92040E8E22B876CA00B5DE64 /* swift_linkTests.swift */,
+				92040E9022B876CA00B5DE64 /* Info.plist */,
+			);
+			path = swift_linkTests;
+			sourceTree = "<group>";
+		};
+		92040E9822B876CA00B5DE64 /* swift_linkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92040E9922B876CA00B5DE64 /* swift_linkUITests.swift */,
+				92040E9B22B876CA00B5DE64 /* Info.plist */,
+			);
+			path = swift_linkUITests;
+			sourceTree = "<group>";
+		};
+		92A8D8CE22BE1E8400864BD8 /* MAVLink */ = {
+			isa = PBXGroup;
+			children = (
+				92A8D8CF22BE1E8400864BD8 /* .gitignore */,
+				92A8D8D022BE1E8400864BD8 /* MAVLinkLib */,
+			);
+			path = MAVLink;
+			sourceTree = "<group>";
+		};
+		92A8D8D022BE1E8400864BD8 /* MAVLinkLib */ = {
+			isa = PBXGroup;
+			children = (
+				92A8D8D122BE1E8400864BD8 /* SubModeArdupilotmegaEnum.swift */,
+				92A8D8D222BE1E8400864BD8 /* RCChannelsRawCommonMsg.swift */,
+				92A8D8D322BE1E8400864BD8 /* OpticalFlowRadCommonMsg.swift */,
+				92A8D8D422BE1E8400864BD8 /* ParachuteActionCommonEnum.swift */,
+				92A8D8D522BE1E8400864BD8 /* GoproSetResponseArdupilotmegaMsg.swift */,
+				92A8D8D622BE1E8400864BD8 /* RemoteLogBlockStatusArdupilotmegaMsg.swift */,
+				92A8D8D722BE1E8400864BD8 /* CollisionCommonMsg.swift */,
+				92A8D8D822BE1E8400864BD8 /* ParamSetCommonMsg.swift */,
+				92A8D8D922BE1E8400864BD8 /* EstimatorStatusCommonMsg.swift */,
+				92A8D8DA22BE1E8400864BD8 /* MagCalStatusArdupilotmegaEnum.swift */,
+				92A8D8DB22BE1E8400864BD8 /* MAVMissionTypeCommonEnum.swift */,
+				92A8D8DC22BE1E8400864BD8 /* GoproModelArdupilotmegaEnum.swift */,
+				92A8D8DD22BE1E8400864BD8 /* GimbalAxisCalibrationStatusArdupilotmegaEnum.swift */,
+				92A8D8DE22BE1E8400864BD8 /* AttitudeCommonMsg.swift */,
+				92A8D8DF22BE1E8400864BD8 /* MissionClearAllCommonMsg.swift */,
+				92A8D8E022BE1E8400864BD8 /* Ahrs3ArdupilotmegaMsg.swift */,
+				92A8D8E122BE1E8400864BD8 /* MountStatusArdupilotmegaMsg.swift */,
+				92A8D8E222BE1E8400864BD8 /* PlaneModeArdupilotmegaEnum.swift */,
+				92A8D8E322BE1E8400864BD8 /* PingCommonMsg.swift */,
+				92A8D8E422BE1E8400864BD8 /* NavControllerOutputCommonMsg.swift */,
+				92A8D8E522BE1E8400864BD8 /* HlFailureFlagCommonEnum.swift */,
+				92A8D8E622BE1E8400864BD8 /* GPSInputIgnoreFlagsCommonEnum.swift */,
+				92A8D8E722BE1E8400864BD8 /* VfrHudCommonMsg.swift */,
+				92A8D8E822BE1E8400864BD8 /* ManualControlCommonMsg.swift */,
+				92A8D8E922BE1E8400864BD8 /* MissionItemReachedCommonMsg.swift */,
+				92A8D8EA22BE1E8400864BD8 /* LogRequestEndCommonMsg.swift */,
+				92A8D8EB22BE1E8400864BD8 /* GPSGlobalOriginCommonMsg.swift */,
+				92A8D8EC22BE1E8400864BD8 /* LedControlArdupilotmegaMsg.swift */,
+				92A8D8ED22BE1E8400864BD8 /* MissionRequestPartialListCommonMsg.swift */,
+				92A8D8EE22BE1E8400864BD8 /* UavcanNodeModeCommonEnum.swift */,
+				92A8D8EF22BE1E8400864BD8 /* CommandIntCommonMsg.swift */,
+				92A8D8F022BE1E8400864BD8 /* MAVSysStatusSensorCommonEnum.swift */,
+				92A8D8F122BE1E8400864BD8 /* RadioArdupilotmegaMsg.swift */,
+				92A8D8F222BE1E8400864BD8 /* SafetySetAllowedAreaCommonMsg.swift */,
+				92A8D8F322BE1E8400864BD8 /* MAVModeCommonEnum.swift */,
+				92A8D8F422BE1E8400864BD8 /* RCChannelsOverrideCommonMsg.swift */,
+				92A8D8F522BE1E8400864BD8 /* CameraModeCommonEnum.swift */,
+				92A8D8F622BE1E8400864BD8 /* UavionixADSBRfHealthUavionixEnum.swift */,
+				92A8D8F722BE1E8400864BD8 /* LocalPositionNEDSystemGlobalOffsetCommonMsg.swift */,
+				92A8D8F822BE1E8400864BD8 /* PrecisionLandModeCommonEnum.swift */,
+				92A8D8F922BE1E8400864BD8 /* MissionRequestIntCommonMsg.swift */,
+				92A8D8FA22BE1E8400864BD8 /* VideoStreamStatusFlagsCommonEnum.swift */,
+				92A8D8FB22BE1E8400864BD8 /* PidTuningArdupilotmegaMsg.swift */,
+				92A8D8FC22BE1E8400864BD8 /* UavionixADSBOutDynamicGPSFixUavionixEnum.swift */,
+				92A8D8FD22BE1E8400864BD8 /* RemoteLogDataBlockArdupilotmegaMsg.swift */,
+				92A8D8FE22BE1E8400864BD8 /* DataStreamCommonMsg.swift */,
+				92A8D8FF22BE1E8400864BD8 /* UavionixADSBOutCfgAircraftSizeUavionixEnum.swift */,
+				92A8D90022BE1E8400864BD8 /* SetPositionTargetLocalNEDCommonMsg.swift */,
+				92A8D90122BE1E8400864BD8 /* MagCalReportArdupilotmegaMsg.swift */,
+				92A8D90222BE1E8400864BD8 /* CameraStatusTypesArdupilotmegaEnum.swift */,
+				92A8D90322BE1E8400864BD8 /* MAVVTOLStateCommonEnum.swift */,
+				92A8D90422BE1E8400864BD8 /* GlobalVisionPositionEstimateCommonMsg.swift */,
+				92A8D90522BE1E8400864BD8 /* GoproProtuneWhiteBalanceArdupilotmegaEnum.swift */,
+				92A8D90622BE1E8400864BD8 /* UavionixADSBEmergencyStatusUavionixEnum.swift */,
+				92A8D90722BE1E8400864BD8 /* MAVSeverityCommonEnum.swift */,
+				92A8D90822BE1E8400864BD8 /* MAVCmdArdupilotmegaEnum.swift */,
+				92A8D90922BE1E8400864BD8 /* GoproCommandArdupilotmegaEnum.swift */,
+				92A8D90A22BE1E8400864BD8 /* HwstatusArdupilotmegaMsg.swift */,
+				92A8D90B22BE1E8400864BD8 /* LinkNodeStatusCommonMsg.swift */,
+				92A8D90C22BE1E8400864BD8 /* ADSBEmitterTypeCommonEnum.swift */,
+				92A8D90D22BE1E8400864BD8 /* LogEntryCommonMsg.swift */,
+				92A8D90E22BE1E8400864BD8 /* RangefinderArdupilotmegaMsg.swift */,
+				92A8D90F22BE1E8400864BD8 /* DigicamControlArdupilotmegaMsg.swift */,
+				92A8D91022BE1E8400864BD8 /* GimbalTorqueCmdReportArdupilotmegaMsg.swift */,
+				92A8D91122BE1E8400864BD8 /* LimitsStatusArdupilotmegaMsg.swift */,
+				92A8D91222BE1E8400864BD8 /* MAVLandedStateCommonEnum.swift */,
+				92A8D91322BE1E8400864BD8 /* TerrainRequestCommonMsg.swift */,
+				92A8D91422BE1E8400864BD8 /* ExtendedSysStateCommonMsg.swift */,
+				92A8D91522BE1E8400864BD8 /* MissionRequestListCommonMsg.swift */,
+				92A8D91622BE1E8400864BD8 /* RoverModeArdupilotmegaEnum.swift */,
+				92A8D91722BE1E8400864BD8 /* VideoStreamTypeCommonEnum.swift */,
+				92A8D91822BE1E8400864BD8 /* ParamValueCommonMsg.swift */,
+				92A8D91922BE1E8400864BD8 /* CompassmotStatusArdupilotmegaMsg.swift */,
+				92A8D91A22BE1E8400864BD8 /* TimesyncCommonMsg.swift */,
+				92A8D91B22BE1E8400864BD8 /* SimstateArdupilotmegaMsg.swift */,
+				92A8D91C22BE1E8400864BD8 /* GoproProtuneGainArdupilotmegaEnum.swift */,
+				92A8D91D22BE1E8400864BD8 /* MissionItemIntCommonMsg.swift */,
+				92A8D91E22BE1E8400864BD8 /* AirspeedAutocalArdupilotmegaMsg.swift */,
+				92A8D91F22BE1E8400864BD8 /* DistanceSensorCommonMsg.swift */,
+				92A8D92022BE1E8400864BD8 /* SetFocusTypeCommonEnum.swift */,
+				92A8D92122BE1E8400864BD8 /* CellularNetworkStatusFlagCommonEnum.swift */,
+				92A8D92222BE1E8400864BD8 /* SerialControlFlagCommonEnum.swift */,
+				92A8D92322BE1E8400864BD8 /* PositionTargetLocalNEDCommonMsg.swift */,
+				92A8D92422BE1E8400864BD8 /* HomePositionCommonMsg.swift */,
+				92A8D92522BE1E8400864BD8 /* GimbalAxisCalibrationRequiredArdupilotmegaEnum.swift */,
+				92A8D92622BE1E8400864BD8 /* EstimatorStatusFlagsCommonEnum.swift */,
+				92A8D92722BE1E8400864BD8 /* LimitsStateArdupilotmegaEnum.swift */,
+				92A8D92822BE1E8400864BD8 /* LogRequestListCommonMsg.swift */,
+				92A8D92922BE1E8400864BD8 /* SysStatusCommonMsg.swift */,
+				92A8D92A22BE1E8400864BD8 /* MAVDistanceSensorCommonEnum.swift */,
+				92A8D92B22BE1E8400864BD8 /* MAVCollisionThreatLevelCommonEnum.swift */,
+				92A8D92C22BE1E8400864BD8 /* HilControlsCommonMsg.swift */,
+				92A8D92D22BE1E8400864BD8 /* ChangeOperatorControlCommonMsg.swift */,
+				92A8D92E22BE1E8400864BD8 /* AutopilotVersionRequestArdupilotmegaMsg.swift */,
+				92A8D92F22BE1E8400864BD8 /* MAVROICommonEnum.swift */,
+				92A8D93022BE1E8400864BD8 /* MAVRemoteLogDataBlockCommandsArdupilotmegaEnum.swift */,
+				92A8D93122BE1E8400864BD8 /* DigicamConfigureArdupilotmegaMsg.swift */,
+				92A8D93222BE1E8400864BD8 /* GoproFieldOfViewArdupilotmegaEnum.swift */,
+				92A8D93322BE1E8400864BD8 /* AttitudeTargetCommonMsg.swift */,
+				92A8D93422BE1E8400864BD8 /* ScaledIMUCommonMsg.swift */,
+				92A8D93522BE1E8400864BD8 /* AttitudeQuaternionCovCommonMsg.swift */,
+				92A8D93622BE1E8400864BD8 /* GPSInputCommonMsg.swift */,
+				92A8D93722BE1E8400864BD8 /* FirmwareVersionTypeCommonEnum.swift */,
+				92A8D93822BE1E8400864BD8 /* MAVFrameCommonEnum.swift */,
+				92A8D93922BE1E8400864BD8 /* GPS2RTKCommonMsg.swift */,
+				92A8D93A22BE1E8400864BD8 /* MissionWritePartialListCommonMsg.swift */,
+				92A8D93B22BE1E8400864BD8 /* MAVCollisionActionCommonEnum.swift */,
+				92A8D93C22BE1E8400864BD8 /* LocalPositionNEDCommonMsg.swift */,
+				92A8D93D22BE1E8400864BD8 /* HighresIMUCommonMsg.swift */,
+				92A8D93E22BE1E8400864BD8 /* MAVParamExtTypeCommonEnum.swift */,
+				92A8D93F22BE1E8400864BD8 /* SensorOffsetsArdupilotmegaMsg.swift */,
+				92A8D94022BE1E8400864BD8 /* TerrainDataCommonMsg.swift */,
+				92A8D94122BE1E8400864BD8 /* NamedValueIntCommonMsg.swift */,
+				92A8D94222BE1E8400864BD8 /* SafetyAllowedAreaCommonMsg.swift */,
+				92A8D94322BE1E8400864BD8 /* GoproGetRequestArdupilotmegaMsg.swift */,
+				92A8D94422BE1E8400864BD8 /* CopterModeArdupilotmegaEnum.swift */,
+				92A8D94522BE1E8400864BD8 /* MissionItemCommonMsg.swift */,
+				92A8D94622BE1E8400864BD8 /* FenceBreachCommonEnum.swift */,
+				92A8D94722BE1E8400864BD8 /* TerrainReportCommonMsg.swift */,
+				92A8D94822BE1E8400864BD8 /* CameraTriggerCommonMsg.swift */,
+				92A8D94922BE1E8400864BD8 /* GPSStatusCommonMsg.swift */,
+				92A8D94A22BE1E8400864BD8 /* CellularNetworkRadioTypeCommonEnum.swift */,
+				92A8D94B22BE1E8400864BD8 /* GPSInjectDataCommonMsg.swift */,
+				92A8D94C22BE1E8400864BD8 /* MAVSmartBatteryFaultCommonEnum.swift */,
+				92A8D94D22BE1E8400864BD8 /* AccelcalVehiclePosArdupilotmegaEnum.swift */,
+				92A8D94E22BE1E8400864BD8 /* MeminfoArdupilotmegaMsg.swift */,
+				92A8D94F22BE1E8400864BD8 /* ResourceRequestCommonMsg.swift */,
+				92A8D95022BE1E8400864BD8 /* MAVGotoCommonEnum.swift */,
+				92A8D95122BE1E8400864BD8 /* HighLatency2CommonMsg.swift */,
+				92A8D95222BE1E8400864BD8 /* RpmArdupilotmegaMsg.swift */,
+				92A8D95322BE1E8400864BD8 /* MotorTestThrottleTypeCommonEnum.swift */,
+				92A8D95422BE1E8400864BD8 /* AhrsArdupilotmegaMsg.swift */,
+				92A8D95522BE1E8400864BD8 /* StorageStatusCommonEnum.swift */,
+				92A8D95622BE1E8400864BD8 /* ADSBVehicleCommonMsg.swift */,
+				92A8D95722BE1E8400864BD8 /* FileTransferProtocolCommonMsg.swift */,
+				92A8D95822BE1E8400864BD8 /* RawPressureCommonMsg.swift */,
+				92A8D95922BE1E8400864BD8 /* GoproProtuneSharpnessArdupilotmegaEnum.swift */,
+				92A8D95A22BE1E8400864BD8 /* DeviceOpBustypeArdupilotmegaEnum.swift */,
+				92A8D95B22BE1E8400864BD8 /* GoproBurstRateArdupilotmegaEnum.swift */,
+				92A8D95C22BE1E8400864BD8 /* HilSensorCommonMsg.swift */,
+				92A8D95D22BE1E8400864BD8 /* GoproVideoSettingsFlagsArdupilotmegaEnum.swift */,
+				92A8D95E22BE1E8400864BD8 /* FencePointArdupilotmegaMsg.swift */,
+				92A8D95F22BE1E8400864BD8 /* SetPositionTargetGlobalIntCommonMsg.swift */,
+				92A8D96022BE1E8400864BD8 /* MountControlArdupilotmegaMsg.swift */,
+				92A8D96122BE1E8400864BD8 /* V2ExtensionCommonMsg.swift */,
+				92A8D96222BE1E8400864BD8 /* ParamMapRCCommonMsg.swift */,
+				92A8D96322BE1E8400864BD8 /* LogDataCommonMsg.swift */,
+				92A8D96422BE1E8400864BD8 /* MAVProtocolCapabilityCommonEnum.swift */,
+				92A8D96522BE1E8400864BD8 /* UavionixADSBOutRfSelectUavionixEnum.swift */,
+				92A8D96622BE1E8400864BD8 /* LandingTargetTypeCommonEnum.swift */,
+				92A8D96722BE1E8400864BD8 /* ManualSetpointCommonMsg.swift */,
+				92A8D96822BE1E8400864BD8 /* MAVArmAuthDeniedReasonCommonEnum.swift */,
+				92A8D96922BE1E8400864BD8 /* WindCovCommonMsg.swift */,
+				92A8D96A22BE1E8400864BD8 /* GPSRawIntCommonMsg.swift */,
+				92A8D96B22BE1E8400864BD8 /* MissionCurrentCommonMsg.swift */,
+				92A8D96C22BE1E8400864BD8 /* DebugVectCommonMsg.swift */,
+				92A8D96D22BE1E8400864BD8 /* UavionixADSBOutCfgGPSOffsetLatUavionixEnum.swift */,
+				92A8D96E22BE1E8400864BD8 /* DataTransmissionHandshakeCommonMsg.swift */,
+				92A8D96F22BE1E8400864BD8 /* UavionixADSBOutCfgGPSOffsetLonUavionixEnum.swift */,
+				92A8D97022BE1E8400864BD8 /* MAVBatteryChargeStateCommonEnum.swift */,
+				92A8D97122BE1E8400864BD8 /* GoproGetResponseArdupilotmegaMsg.swift */,
+				92A8D97222BE1E8400864BD8 /* MAVModeFlagCommonEnum.swift */,
+				92A8D97322BE1E8400864BD8 /* MissionAckCommonMsg.swift */,
+				92A8D97422BE1E8400864BD8 /* VisionSpeedEstimateCommonMsg.swift */,
+				92A8D97522BE1E8400864BD8 /* UtmDataAvailFlagsCommonEnum.swift */,
+				92A8D97622BE1E8400864BD8 /* CameraFeedbackArdupilotmegaMsg.swift */,
+				92A8D97722BE1E8400864BD8 /* ApAdcArdupilotmegaMsg.swift */,
+				92A8D97822BE1E8400864BD8 /* ScaledPressureCommonMsg.swift */,
+				92A8D97922BE1E8400864BD8 /* VibrationCommonMsg.swift */,
+				92A8D97A22BE1E8400864BD8 /* RallyFlagsArdupilotmegaEnum.swift */,
+				92A8D97B22BE1E8400864BD8 /* FenceFetchPointArdupilotmegaMsg.swift */,
+				92A8D97C22BE1E8400864BD8 /* BatteryStatusCommonMsg.swift */,
+				92A8D97D22BE1E8400864BD8 /* SetHomePositionCommonMsg.swift */,
+				92A8D97E22BE1E8400864BD8 /* SerialControlCommonMsg.swift */,
+				92A8D97F22BE1E8400864BD8 /* GoproHeartbeatStatusArdupilotmegaEnum.swift */,
+				92A8D98022BE1E8400864BD8 /* MAVModeFlagDecodePositionCommonEnum.swift */,
+				92A8D98122BE1E8400864BD8 /* MAVDataStreamCommonEnum.swift */,
+				92A8D98222BE1E8400864BD8 /* PositionTargetGlobalIntCommonMsg.swift */,
+				92A8D98322BE1E8400864BD8 /* Data96ArdupilotmegaMsg.swift */,
+				92A8D98422BE1E8500864BD8 /* ServoOutputRawCommonMsg.swift */,
+				92A8D98522BE1E8500864BD8 /* LocalPositionNEDCovCommonMsg.swift */,
+				92A8D98622BE1E8500864BD8 /* EkfStatusReportArdupilotmegaMsg.swift */,
+				92A8D98722BE1E8500864BD8 /* RTKBaselineCoordinateSystemCommonEnum.swift */,
+				92A8D98822BE1E8500864BD8 /* FenceStatusArdupilotmegaMsg.swift */,
+				92A8D98922BE1E8500864BD8 /* GoproProtuneColourArdupilotmegaEnum.swift */,
+				92A8D98A22BE1E8500864BD8 /* MAVSensorOrientationCommonEnum.swift */,
+				92A8D98B22BE1E8500864BD8 /* MissionCountCommonMsg.swift */,
+				92A8D98C22BE1E8500864BD8 /* Ahrs2ArdupilotmegaMsg.swift */,
+				92A8D98D22BE1E8500864BD8 /* CameraCapFlagsCommonEnum.swift */,
+				92A8D98E22BE1E8500864BD8 /* MAVEstimatorTypeCommonEnum.swift */,
+				92A8D98F22BE1E8500864BD8 /* FenceActionCommonEnum.swift */,
+				92A8D99022BE1E8500864BD8 /* MAVAutopilotCommonEnum.swift */,
+				92A8D99122BE1E8500864BD8 /* VTOLTransitionHeadingCommonEnum.swift */,
+				92A8D99222BE1E8500864BD8 /* Battery2ArdupilotmegaMsg.swift */,
+				92A8D99322BE1E8500864BD8 /* MAVCmdAckCommonEnum.swift */,
+				92A8D99422BE1E8500864BD8 /* AutopilotVersionCommonMsg.swift */,
+				92A8D99522BE1E8500864BD8 /* ViconPositionEstimateCommonMsg.swift */,
+				92A8D99622BE1E8500864BD8 /* OpticalFlowCommonMsg.swift */,
+				92A8D99722BE1E8500864BD8 /* GripperActionsArdupilotmegaEnum.swift */,
+				92A8D99822BE1E8500864BD8 /* MAVDoRepositionFlagsCommonEnum.swift */,
+				92A8D99922BE1E8500864BD8 /* GoproFrameRateArdupilotmegaEnum.swift */,
+				92A8D99A22BE1E8500864BD8 /* RallyFetchPointArdupilotmegaMsg.swift */,
+				92A8D99B22BE1E8500864BD8 /* DeepstallStageArdupilotmegaEnum.swift */,
+				92A8D99C22BE1E8500864BD8 /* AuthKeyCommonMsg.swift */,
+				92A8D99D22BE1E8500864BD8 /* GimbalReportArdupilotmegaMsg.swift */,
+				92A8D99E22BE1E8500864BD8 /* SetAttitudeTargetCommonMsg.swift */,
+				92A8D99F22BE1E8500864BD8 /* LogEraseCommonMsg.swift */,
+				92A8D9A022BE1E8500864BD8 /* TrackerModeArdupilotmegaEnum.swift */,
+				92A8D9A122BE1E8500864BD8 /* SetActuatorControlTargetCommonMsg.swift */,
+				92A8D9A222BE1E8500864BD8 /* CameraZoomTypeCommonEnum.swift */,
+				92A8D9A322BE1E8500864BD8 /* EkfStatusFlagsArdupilotmegaEnum.swift */,
+				92A8D9A422BE1E8500864BD8 /* SystemTimeCommonMsg.swift */,
+				92A8D9A522BE1E8500864BD8 /* MissionChangedCommonMsg.swift */,
+				92A8D9A622BE1E8500864BD8 /* GPS2RawCommonMsg.swift */,
+				92A8D9A722BE1E8500864BD8 /* RawIMUCommonMsg.swift */,
+				92A8D9A822BE1E8500864BD8 /* RCChannelsCommonMsg.swift */,
+				92A8D9A922BE1E8500864BD8 /* MAVResultCommonEnum.swift */,
+				92A8D9AA22BE1E8500864BD8 /* HilActuatorControlsCommonMsg.swift */,
+				92A8D9AB22BE1E8500864BD8 /* GoproChargingArdupilotmegaEnum.swift */,
+				92A8D9AC22BE1E8500864BD8 /* NamedValueFloatCommonMsg.swift */,
+				92A8D9AD22BE1E8500864BD8 /* SerialControlDevCommonEnum.swift */,
+				92A8D9AE22BE1E8500864BD8 /* LogRequestDataCommonMsg.swift */,
+				92A8D9AF22BE1E8500864BD8 /* ParamRequestListCommonMsg.swift */,
+				92A8D9B022BE1E8500864BD8 /* VisionPositionEstimateCommonMsg.swift */,
+				92A8D9B122BE1E8500864BD8 /* UavionixADSBOutDynamicStateUavionixEnum.swift */,
+				92A8D9B222BE1E8500864BD8 /* RadioStatusCommonMsg.swift */,
+				92A8D9B322BE1E8500864BD8 /* CommandAckCommonMsg.swift */,
+				92A8D9B422BE1E8500864BD8 /* GPSRtcmDataCommonMsg.swift */,
+				92A8D9B522BE1E8500864BD8 /* GPSFixTypeCommonEnum.swift */,
+				92A8D9B622BE1E8500864BD8 /* DeepstallArdupilotmegaMsg.swift */,
+				92A8D9B722BE1E8500864BD8 /* PositionTargetTypemaskCommonEnum.swift */,
+				92A8D9B822BE1E8500864BD8 /* MAVStateCommonEnum.swift */,
+				92A8D9B922BE1E8500864BD8 /* LandingTargetCommonMsg.swift */,
+				92A8D9BA22BE1E8500864BD8 /* GoproRequestStatusArdupilotmegaEnum.swift */,
+				92A8D9BB22BE1E8500864BD8 /* WinchActionsArdupilotmegaEnum.swift */,
+				92A8D9BC22BE1E8500864BD8 /* WindArdupilotmegaMsg.swift */,
+				92A8D9BD22BE1E8500864BD8 /* MissionSetCurrentCommonMsg.swift */,
+				92A8D9BE22BE1E8500864BD8 /* GoproHeartbeatArdupilotmegaMsg.swift */,
+				92A8D9BF22BE1E8500864BD8 /* HighLatencyCommonMsg.swift */,
+				92A8D9C022BE1E8500864BD8 /* HilRCInputsRawCommonMsg.swift */,
+				92A8D9C122BE1E8500864BD8 /* Data32ArdupilotmegaMsg.swift */,
+				92A8D9C222BE1E8500864BD8 /* LimitModuleArdupilotmegaEnum.swift */,
+				92A8D9C322BE1E8500864BD8 /* MAVTypeCommonEnum.swift */,
+				92A8D9C422BE1E8500864BD8 /* AltitudeCommonMsg.swift */,
+				92A8D9C522BE1E8500864BD8 /* HilOpticalFlowCommonMsg.swift */,
+				92A8D9C622BE1E8500864BD8 /* MessageIntervalCommonMsg.swift */,
+				92A8D9C722BE1E8500864BD8 /* MAVMissionResultCommonEnum.swift */,
+				92A8D9C822BE1E8500864BD8 /* GoproProtuneExposureArdupilotmegaEnum.swift */,
+				92A8D9C922BE1E8500864BD8 /* HilStateQuaternionCommonMsg.swift */,
+				92A8D9CA22BE1E8500864BD8 /* ADSBFlagsCommonEnum.swift */,
+				92A8D9CB22BE1E8500864BD8 /* IcarousTrackBandTypesIcarousEnum.swift */,
+				92A8D9CC22BE1E8500864BD8 /* GPSRTKCommonMsg.swift */,
+				92A8D9CD22BE1E8500864BD8 /* CameraStatusArdupilotmegaMsg.swift */,
+				92A8D9CE22BE1E8500864BD8 /* HilGPSCommonMsg.swift */,
+				92A8D9CF22BE1E8500864BD8 /* SetModeCommonMsg.swift */,
+				92A8D9D022BE1E8500864BD8 /* MotorTestOrderCommonEnum.swift */,
+				92A8D9D122BE1E8500864BD8 /* StatustextCommonMsg.swift */,
+				92A8D9D222BE1E8500864BD8 /* HeartbeatCommonMsg.swift */,
+				92A8D9D322BE1E8500864BD8 /* UavcanNodeHealthCommonEnum.swift */,
+				92A8D9D422BE1E8500864BD8 /* ChangeOperatorControlAckCommonMsg.swift */,
+				92A8D9D522BE1E8500864BD8 /* RCChannelsScaledCommonMsg.swift */,
+				92A8D9D622BE1E8500864BD8 /* SimStateCommonMsg.swift */,
+				92A8D9D722BE1E8500864BD8 /* ScaledIMU2CommonMsg.swift */,
+				92A8D9D822BE1E8500864BD8 /* MAVBatteryTypeCommonEnum.swift */,
+				92A8D9D922BE1E8500864BD8 /* ScaledPressure3CommonMsg.swift */,
+				92A8D9DA22BE1E8500864BD8 /* ActuatorControlTargetCommonMsg.swift */,
+				92A8D9DB22BE1E8500864BD8 /* MAVParamTypeCommonEnum.swift */,
+				92A8D9DC22BE1E8500864BD8 /* PidTuningAxisArdupilotmegaEnum.swift */,
+				92A8D9DD22BE1E8500864BD8 /* GoproPhotoResolutionArdupilotmegaEnum.swift */,
+				92A8D9DE22BE1E8500864BD8 /* Data16ArdupilotmegaMsg.swift */,
+				92A8D9DF22BE1E8500864BD8 /* MagCalProgressArdupilotmegaMsg.swift */,
+				92A8D9E022BE1E8500864BD8 /* UtmFlightStateCommonEnum.swift */,
+				92A8D9E122BE1E8500864BD8 /* ParamRequestReadCommonMsg.swift */,
+				92A8D9E222BE1E8500864BD8 /* MAVRemoteLogDataBlockStatusesArdupilotmegaEnum.swift */,
+				92A8D9E322BE1E8500864BD8 /* MAVMountModeCommonEnum.swift */,
+				92A8D9E422BE1E8500864BD8 /* EncapsulatedDataCommonMsg.swift */,
+				92A8D9E522BE1E8500864BD8 /* RequestDataStreamCommonMsg.swift */,
+				92A8D9E622BE1E8500864BD8 /* MemoryVectCommonMsg.swift */,
+				92A8D9E722BE1E8500864BD8 /* MavlinkDataStreamTypeCommonEnum.swift */,
+				92A8D9E822BE1E8500864BD8 /* GimbalAxisArdupilotmegaEnum.swift */,
+				92A8D9E922BE1E8500864BD8 /* Data64ArdupilotmegaMsg.swift */,
+				92A8D9EA22BE1E8500864BD8 /* SetGPSGlobalOriginCommonMsg.swift */,
+				92A8D9EB22BE1E8500864BD8 /* MountConfigureArdupilotmegaMsg.swift */,
+				92A8D9EC22BE1E8500864BD8 /* CameraFeedbackFlagsArdupilotmegaEnum.swift */,
+				92A8D9ED22BE1E8500864BD8 /* RCTypeCommonEnum.swift */,
+				92A8D9EE22BE1E8500864BD8 /* MissionRequestCommonMsg.swift */,
+				92A8D9EF22BE1E8500864BD8 /* GoproHeartbeatFlagsArdupilotmegaEnum.swift */,
+				92A8D9F022BE1E8500864BD8 /* CommandLongCommonMsg.swift */,
+				92A8D9F122BE1E8500864BD8 /* GoproResolutionArdupilotmegaEnum.swift */,
+				92A8D9F222BE1E8500864BD8 /* ADSBAltitudeTypeCommonEnum.swift */,
+				92A8D9F322BE1E8500864BD8 /* AttitudeQuaternionCommonMsg.swift */,
+				92A8D9F422BE1E8500864BD8 /* ParamAckCommonEnum.swift */,
+				92A8D9F522BE1E8500864BD8 /* IcarousFmsStateIcarousEnum.swift */,
+				92A8D9F622BE1E8500864BD8 /* MAVModeGimbalArdupilotmegaEnum.swift */,
+				92A8D9F722BE1E8500864BD8 /* GoproSetRequestArdupilotmegaMsg.swift */,
+				92A8D9F822BE1E8500864BD8 /* DebugCommonMsg.swift */,
+				92A8D9F922BE1E8500864BD8 /* GlobalPositionIntCovCommonMsg.swift */,
+				92A8D9FA22BE1E8500864BD8 /* GlobalPositionIntCommonMsg.swift */,
+				92A8D9FB22BE1E8500864BD8 /* LedControlPatternArdupilotmegaEnum.swift */,
+				92A8D9FC22BE1E8500864BD8 /* HilStateCommonMsg.swift */,
+				92A8D9FD22BE1E8500864BD8 /* ScaledPressure2CommonMsg.swift */,
+				92A8D9FE22BE1E8500864BD8 /* SetMagOffsetsArdupilotmegaMsg.swift */,
+				92A8D9FF22BE1E8500864BD8 /* ScaledImu3CommonMsg.swift */,
+				92A8DA0022BE1E8500864BD8 /* GoproCaptureModeArdupilotmegaEnum.swift */,
+				92A8DA0122BE1E8500864BD8 /* GimbalControlArdupilotmegaMsg.swift */,
+				92A8DA0222BE1E8500864BD8 /* MAVCollisionSrcCommonEnum.swift */,
+				92A8DA0322BE1E8500864BD8 /* FollowTargetCommonMsg.swift */,
+				92A8DA0422BE1E8500864BD8 /* RallyPointArdupilotmegaMsg.swift */,
+				92A8DA0522BE1E8500864BD8 /* MAVComponentCommonEnum.swift */,
+				92A8DA0622BE1E8500864BD8 /* AttPosMocapCommonMsg.swift */,
+				92A8DA0722BE1E8500864BD8 /* PowerStatusCommonMsg.swift */,
+				92A8DA0822BE1E8500864BD8 /* MAVPowerStatusCommonEnum.swift */,
+				92A8DA0922BE1E8500864BD8 /* ControlSystemStateCommonMsg.swift */,
+				92A8DA0A22BE1E8500864BD8 /* TerrainCheckCommonMsg.swift */,
+				92A8DA0B22BE1E8500864BD8 /* MAVBatteryFunctionCommonEnum.swift */,
+			);
+			path = MAVLinkLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92040E7522B876C900B5DE64 /* swift_link */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92040E9E22B876CA00B5DE64 /* Build configuration list for PBXNativeTarget "swift_link" */;
+			buildPhases = (
+				92040E7222B876C900B5DE64 /* Sources */,
+				92040E7322B876C900B5DE64 /* Frameworks */,
+				92040E7422B876C900B5DE64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swift_link;
+			productName = swift_link;
+			productReference = 92040E7622B876C900B5DE64 /* swift_link.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92040E8922B876CA00B5DE64 /* swift_linkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92040EA122B876CA00B5DE64 /* Build configuration list for PBXNativeTarget "swift_linkTests" */;
+			buildPhases = (
+				92040E8622B876CA00B5DE64 /* Sources */,
+				92040E8722B876CA00B5DE64 /* Frameworks */,
+				92040E8822B876CA00B5DE64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92040E8C22B876CA00B5DE64 /* PBXTargetDependency */,
+			);
+			name = swift_linkTests;
+			productName = swift_linkTests;
+			productReference = 92040E8A22B876CA00B5DE64 /* swift_linkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92040E9422B876CA00B5DE64 /* swift_linkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92040EA422B876CA00B5DE64 /* Build configuration list for PBXNativeTarget "swift_linkUITests" */;
+			buildPhases = (
+				92040E9122B876CA00B5DE64 /* Sources */,
+				92040E9222B876CA00B5DE64 /* Frameworks */,
+				92040E9322B876CA00B5DE64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92040E9722B876CA00B5DE64 /* PBXTargetDependency */,
+			);
+			name = swift_linkUITests;
+			productName = swift_linkUITests;
+			productReference = 92040E9522B876CA00B5DE64 /* swift_linkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92040E6E22B876C900B5DE64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = IOS;
+				TargetAttributes = {
+					92040E7522B876C900B5DE64 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					92040E8922B876CA00B5DE64 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 92040E7522B876C900B5DE64;
+					};
+					92040E9422B876CA00B5DE64 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 92040E7522B876C900B5DE64;
+					};
+				};
+			};
+			buildConfigurationList = 92040E7122B876C900B5DE64 /* Build configuration list for PBXProject "swift_link" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92040E6D22B876C900B5DE64;
+			productRefGroup = 92040E7722B876C900B5DE64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92040E7522B876C900B5DE64 /* swift_link */,
+				92040E8922B876CA00B5DE64 /* swift_linkTests */,
+				92040E9422B876CA00B5DE64 /* swift_linkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92040E7422B876C900B5DE64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92040E8422B876CA00B5DE64 /* LaunchScreen.storyboard in Resources */,
+				92A8DA0D22BE1E8500864BD8 /* .gitignore in Resources */,
+				92040E8122B876CA00B5DE64 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92040E8822B876CA00B5DE64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92040E9322B876CA00B5DE64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92040E7222B876C900B5DE64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A8DA8C22BE1E8500864BD8 /* ResourceRequestCommonMsg.swift in Sources */,
+				92A8DB0222BE1E8500864BD8 /* HilOpticalFlowCommonMsg.swift in Sources */,
+				92A8DB0722BE1E8500864BD8 /* ADSBFlagsCommonEnum.swift in Sources */,
+				92A8DB0A22BE1E8500864BD8 /* CameraStatusArdupilotmegaMsg.swift in Sources */,
+				92A8DAF822BE1E8500864BD8 /* WinchActionsArdupilotmegaEnum.swift in Sources */,
+				92A8DAD622BE1E8500864BD8 /* GoproFrameRateArdupilotmegaEnum.swift in Sources */,
+				92A8DA1E22BE1E8500864BD8 /* MountStatusArdupilotmegaMsg.swift in Sources */,
+				92A8DA7322BE1E8500864BD8 /* GPSInputCommonMsg.swift in Sources */,
+				92A8DB2B22BE1E8500864BD8 /* MissionRequestCommonMsg.swift in Sources */,
+				92A8DA9222BE1E8500864BD8 /* StorageStatusCommonEnum.swift in Sources */,
+				92A8DA7F22BE1E8500864BD8 /* SafetyAllowedAreaCommonMsg.swift in Sources */,
+				92A8DA1222BE1E8500864BD8 /* GoproSetResponseArdupilotmegaMsg.swift in Sources */,
+				92A8DB0022BE1E8500864BD8 /* MAVTypeCommonEnum.swift in Sources */,
+				92A8DA3F22BE1E8500864BD8 /* CameraStatusTypesArdupilotmegaEnum.swift in Sources */,
+				92A8DB4022BE1E8500864BD8 /* FollowTargetCommonMsg.swift in Sources */,
+				92040E7C22B876C900B5DE64 /* ViewController.swift in Sources */,
+				92A8DB0322BE1E8500864BD8 /* MessageIntervalCommonMsg.swift in Sources */,
+				92A8DB4122BE1E8500864BD8 /* RallyPointArdupilotmegaMsg.swift in Sources */,
+				92A8DA9A22BE1E8500864BD8 /* GoproVideoSettingsFlagsArdupilotmegaEnum.swift in Sources */,
+				92A8DB2622BE1E8500864BD8 /* Data64ArdupilotmegaMsg.swift in Sources */,
+				92A8DB1822BE1E8500864BD8 /* MAVParamTypeCommonEnum.swift in Sources */,
+				92A8DAD422BE1E8500864BD8 /* GripperActionsArdupilotmegaEnum.swift in Sources */,
+				92A8DA7722BE1E8500864BD8 /* MissionWritePartialListCommonMsg.swift in Sources */,
+				92A8DA8E22BE1E8500864BD8 /* HighLatency2CommonMsg.swift in Sources */,
+				92A8DAC322BE1E8500864BD8 /* EkfStatusReportArdupilotmegaMsg.swift in Sources */,
+				92A8DA1022BE1E8500864BD8 /* OpticalFlowRadCommonMsg.swift in Sources */,
+				92A8DAA122BE1E8500864BD8 /* MAVProtocolCapabilityCommonEnum.swift in Sources */,
+				92A8DA4C22BE1E8500864BD8 /* DigicamControlArdupilotmegaMsg.swift in Sources */,
+				92A8DAD022BE1E8500864BD8 /* MAVCmdAckCommonEnum.swift in Sources */,
+				92A8DAF322BE1E8500864BD8 /* DeepstallArdupilotmegaMsg.swift in Sources */,
+				92A8DA8522BE1E8500864BD8 /* CameraTriggerCommonMsg.swift in Sources */,
+				92A8DABA22BE1E8500864BD8 /* SetHomePositionCommonMsg.swift in Sources */,
+				92A8DB3922BE1E8500864BD8 /* HilStateCommonMsg.swift in Sources */,
+				92A8DAE222BE1E8500864BD8 /* MissionChangedCommonMsg.swift in Sources */,
+				92A8DAE622BE1E8500864BD8 /* MAVResultCommonEnum.swift in Sources */,
+				92A8DAB022BE1E8500864BD8 /* MissionAckCommonMsg.swift in Sources */,
+				92A8DA8F22BE1E8500864BD8 /* RpmArdupilotmegaMsg.swift in Sources */,
+				92A8DB4522BE1E8500864BD8 /* MAVPowerStatusCommonEnum.swift in Sources */,
+				92A8DAE122BE1E8500864BD8 /* SystemTimeCommonMsg.swift in Sources */,
+				92A8DAB622BE1E8500864BD8 /* VibrationCommonMsg.swift in Sources */,
+				92A8DAE822BE1E8500864BD8 /* GoproChargingArdupilotmegaEnum.swift in Sources */,
+				92A8DA6622BE1E8500864BD8 /* SysStatusCommonMsg.swift in Sources */,
+				92A8DACA22BE1E8500864BD8 /* CameraCapFlagsCommonEnum.swift in Sources */,
+				92A8DAA222BE1E8500864BD8 /* UavionixADSBOutRfSelectUavionixEnum.swift in Sources */,
+				92A8DA7022BE1E8500864BD8 /* AttitudeTargetCommonMsg.swift in Sources */,
+				92A8DACB22BE1E8500864BD8 /* MAVEstimatorTypeCommonEnum.swift in Sources */,
+				92A8DAAB22BE1E8500864BD8 /* DataTransmissionHandshakeCommonMsg.swift in Sources */,
+				92A8DB1922BE1E8500864BD8 /* PidTuningAxisArdupilotmegaEnum.swift in Sources */,
+				92A8DA9722BE1E8500864BD8 /* DeviceOpBustypeArdupilotmegaEnum.swift in Sources */,
+				92A8DACD22BE1E8500864BD8 /* MAVAutopilotCommonEnum.swift in Sources */,
+				92A8DAFC22BE1E8500864BD8 /* HighLatencyCommonMsg.swift in Sources */,
+				92A8DAD322BE1E8500864BD8 /* OpticalFlowCommonMsg.swift in Sources */,
+				92A8DB0C22BE1E8500864BD8 /* SetModeCommonMsg.swift in Sources */,
+				92A8DB2322BE1E8500864BD8 /* MemoryVectCommonMsg.swift in Sources */,
+				92A8DA5E22BE1E8500864BD8 /* CellularNetworkStatusFlagCommonEnum.swift in Sources */,
+				92A8DA7122BE1E8500864BD8 /* ScaledIMUCommonMsg.swift in Sources */,
+				92A8DA2022BE1E8500864BD8 /* PingCommonMsg.swift in Sources */,
+				92A8DA0C22BE1E8500864BD8 /* MAVLink.swift in Sources */,
+				92A8DB3822BE1E8500864BD8 /* LedControlPatternArdupilotmegaEnum.swift in Sources */,
+				92A8DAA522BE1E8500864BD8 /* MAVArmAuthDeniedReasonCommonEnum.swift in Sources */,
+				92A8DAD822BE1E8500864BD8 /* DeepstallStageArdupilotmegaEnum.swift in Sources */,
+				92A8DAF622BE1E8500864BD8 /* LandingTargetCommonMsg.swift in Sources */,
+				92A8DABB22BE1E8500864BD8 /* SerialControlCommonMsg.swift in Sources */,
+				92A8DA5A22BE1E8500864BD8 /* MissionItemIntCommonMsg.swift in Sources */,
+				92A8DA4722BE1E8500864BD8 /* HwstatusArdupilotmegaMsg.swift in Sources */,
+				92A8DAA622BE1E8500864BD8 /* WindCovCommonMsg.swift in Sources */,
+				92A8DADB22BE1E8500864BD8 /* SetAttitudeTargetCommonMsg.swift in Sources */,
+				92A8DB0822BE1E8500864BD8 /* IcarousTrackBandTypesIcarousEnum.swift in Sources */,
+				92A8DA2522BE1E8500864BD8 /* ManualControlCommonMsg.swift in Sources */,
+				92A8DAED22BE1E8500864BD8 /* VisionPositionEstimateCommonMsg.swift in Sources */,
+				92A8DA3E22BE1E8500864BD8 /* MagCalReportArdupilotmegaMsg.swift in Sources */,
+				92A8DB2522BE1E8500864BD8 /* GimbalAxisArdupilotmegaEnum.swift in Sources */,
+				92A8DADF22BE1E8500864BD8 /* CameraZoomTypeCommonEnum.swift in Sources */,
+				92040E7A22B876C900B5DE64 /* AppDelegate.swift in Sources */,
+				92A8DAEB22BE1E8500864BD8 /* LogRequestDataCommonMsg.swift in Sources */,
+				92A8DAE322BE1E8500864BD8 /* GPS2RawCommonMsg.swift in Sources */,
+				92A8DB1622BE1E8500864BD8 /* ScaledPressure3CommonMsg.swift in Sources */,
+				92A8DA8322BE1E8500864BD8 /* FenceBreachCommonEnum.swift in Sources */,
+				92A8DAA322BE1E8500864BD8 /* LandingTargetTypeCommonEnum.swift in Sources */,
+				92A8DA1A22BE1E8500864BD8 /* GimbalAxisCalibrationStatusArdupilotmegaEnum.swift in Sources */,
+				92A8DA1622BE1E8500864BD8 /* EstimatorStatusCommonMsg.swift in Sources */,
+				92A8DAC522BE1E8500864BD8 /* FenceStatusArdupilotmegaMsg.swift in Sources */,
+				92A8DB4322BE1E8500864BD8 /* AttPosMocapCommonMsg.swift in Sources */,
+				92A8DABE22BE1E8500864BD8 /* MAVDataStreamCommonEnum.swift in Sources */,
+				92A8DB1C22BE1E8500864BD8 /* MagCalProgressArdupilotmegaMsg.swift in Sources */,
+				92A8DA3922BE1E8500864BD8 /* UavionixADSBOutDynamicGPSFixUavionixEnum.swift in Sources */,
+				92A8DA6A22BE1E8500864BD8 /* ChangeOperatorControlCommonMsg.swift in Sources */,
+				92A8DA6422BE1E8500864BD8 /* LimitsStateArdupilotmegaEnum.swift in Sources */,
+				92A8DA6122BE1E8500864BD8 /* HomePositionCommonMsg.swift in Sources */,
+				92A8DB1422BE1E8500864BD8 /* ScaledIMU2CommonMsg.swift in Sources */,
+				92A8DA9022BE1E8500864BD8 /* MotorTestThrottleTypeCommonEnum.swift in Sources */,
+				92A8DA8822BE1E8500864BD8 /* GPSInjectDataCommonMsg.swift in Sources */,
+				92A8DA8722BE1E8500864BD8 /* CellularNetworkRadioTypeCommonEnum.swift in Sources */,
+				92A8DAB322BE1E8500864BD8 /* CameraFeedbackArdupilotmegaMsg.swift in Sources */,
+				92A8DA4D22BE1E8500864BD8 /* GimbalTorqueCmdReportArdupilotmegaMsg.swift in Sources */,
+				92A8DA5622BE1E8500864BD8 /* CompassmotStatusArdupilotmegaMsg.swift in Sources */,
+				92A8DB4822BE1E8500864BD8 /* MAVBatteryFunctionCommonEnum.swift in Sources */,
+				92A8DB0922BE1E8500864BD8 /* GPSRTKCommonMsg.swift in Sources */,
+				92A8DA2422BE1E8500864BD8 /* VfrHudCommonMsg.swift in Sources */,
+				92A8DA4922BE1E8500864BD8 /* ADSBEmitterTypeCommonEnum.swift in Sources */,
+				92A8DA9822BE1E8500864BD8 /* GoproBurstRateArdupilotmegaEnum.swift in Sources */,
+				92A8DA9E22BE1E8500864BD8 /* V2ExtensionCommonMsg.swift in Sources */,
+				92A8DA2122BE1E8500864BD8 /* NavControllerOutputCommonMsg.swift in Sources */,
+				92A8DA2C22BE1E8500864BD8 /* CommandIntCommonMsg.swift in Sources */,
+				92A8DB1F22BE1E8500864BD8 /* MAVRemoteLogDataBlockStatusesArdupilotmegaEnum.swift in Sources */,
+				92A8DA1422BE1E8500864BD8 /* CollisionCommonMsg.swift in Sources */,
+				92A8DA4B22BE1E8500864BD8 /* RangefinderArdupilotmegaMsg.swift in Sources */,
+				92A8DA4822BE1E8500864BD8 /* LinkNodeStatusCommonMsg.swift in Sources */,
+				92A8DB2922BE1E8500864BD8 /* CameraFeedbackFlagsArdupilotmegaEnum.swift in Sources */,
+				92A8DAAC22BE1E8500864BD8 /* UavionixADSBOutCfgGPSOffsetLonUavionixEnum.swift in Sources */,
+				92A8DA3A22BE1E8500864BD8 /* RemoteLogDataBlockArdupilotmegaMsg.swift in Sources */,
+				92A8DAB122BE1E8500864BD8 /* VisionSpeedEstimateCommonMsg.swift in Sources */,
+				92A8DA7D22BE1E8500864BD8 /* TerrainDataCommonMsg.swift in Sources */,
+				92A8DAB522BE1E8500864BD8 /* ScaledPressureCommonMsg.swift in Sources */,
+				92A8DA1922BE1E8500864BD8 /* GoproModelArdupilotmegaEnum.swift in Sources */,
+				92A8DB4722BE1E8500864BD8 /* TerrainCheckCommonMsg.swift in Sources */,
+				92A8DA2B22BE1E8500864BD8 /* UavcanNodeModeCommonEnum.swift in Sources */,
+				92A8DAF222BE1E8500864BD8 /* GPSFixTypeCommonEnum.swift in Sources */,
+				92A8DB1222BE1E8500864BD8 /* RCChannelsScaledCommonMsg.swift in Sources */,
+				92A8DB3622BE1E8500864BD8 /* GlobalPositionIntCovCommonMsg.swift in Sources */,
+				92A8DB2E22BE1E8500864BD8 /* GoproResolutionArdupilotmegaEnum.swift in Sources */,
+				92A8DA5D22BE1E8500864BD8 /* SetFocusTypeCommonEnum.swift in Sources */,
+				92A8DADA22BE1E8500864BD8 /* GimbalReportArdupilotmegaMsg.swift in Sources */,
+				92A8DAC222BE1E8500864BD8 /* LocalPositionNEDCovCommonMsg.swift in Sources */,
+				92A8DB3322BE1E8500864BD8 /* MAVModeGimbalArdupilotmegaEnum.swift in Sources */,
+				92A8DACC22BE1E8500864BD8 /* FenceActionCommonEnum.swift in Sources */,
+				92A8DA5022BE1E8500864BD8 /* TerrainRequestCommonMsg.swift in Sources */,
+				92A8DA9922BE1E8500864BD8 /* HilSensorCommonMsg.swift in Sources */,
+				92A8DA1C22BE1E8500864BD8 /* MissionClearAllCommonMsg.swift in Sources */,
+				92A8DA3122BE1E8500864BD8 /* RCChannelsOverrideCommonMsg.swift in Sources */,
+				92A8DAAA22BE1E8500864BD8 /* UavionixADSBOutCfgGPSOffsetLatUavionixEnum.swift in Sources */,
+				92A8DA9F22BE1E8500864BD8 /* ParamMapRCCommonMsg.swift in Sources */,
+				92A8DB1322BE1E8500864BD8 /* SimStateCommonMsg.swift in Sources */,
+				92A8DB0E22BE1E8500864BD8 /* StatustextCommonMsg.swift in Sources */,
+				92A8DAFF22BE1E8500864BD8 /* LimitModuleArdupilotmegaEnum.swift in Sources */,
+				92A8DAB222BE1E8500864BD8 /* UtmDataAvailFlagsCommonEnum.swift in Sources */,
+				92A8DAC022BE1E8500864BD8 /* Data96ArdupilotmegaMsg.swift in Sources */,
+				92A8DB1E22BE1E8500864BD8 /* ParamRequestReadCommonMsg.swift in Sources */,
+				92A8DB3C22BE1E8500864BD8 /* ScaledImu3CommonMsg.swift in Sources */,
+				92A8DAC622BE1E8500864BD8 /* GoproProtuneColourArdupilotmegaEnum.swift in Sources */,
+				92A8DA3622BE1E8500864BD8 /* MissionRequestIntCommonMsg.swift in Sources */,
+				92A8DB3422BE1E8500864BD8 /* GoproSetRequestArdupilotmegaMsg.swift in Sources */,
+				92A8DA6E22BE1E8500864BD8 /* DigicamConfigureArdupilotmegaMsg.swift in Sources */,
+				92A8DAB422BE1E8500864BD8 /* ApAdcArdupilotmegaMsg.swift in Sources */,
+				92A8DA6F22BE1E8500864BD8 /* GoproFieldOfViewArdupilotmegaEnum.swift in Sources */,
+				92A8DB1022BE1E8500864BD8 /* UavcanNodeHealthCommonEnum.swift in Sources */,
+				92A8DAEF22BE1E8500864BD8 /* RadioStatusCommonMsg.swift in Sources */,
+				92A8DAD522BE1E8500864BD8 /* MAVDoRepositionFlagsCommonEnum.swift in Sources */,
+				92A8DA7922BE1E8500864BD8 /* LocalPositionNEDCommonMsg.swift in Sources */,
+				92A8DADE22BE1E8500864BD8 /* SetActuatorControlTargetCommonMsg.swift in Sources */,
+				92A8DA2322BE1E8500864BD8 /* GPSInputIgnoreFlagsCommonEnum.swift in Sources */,
+				92A8DAF522BE1E8500864BD8 /* MAVStateCommonEnum.swift in Sources */,
+				92A8DA3D22BE1E8500864BD8 /* SetPositionTargetLocalNEDCommonMsg.swift in Sources */,
+				92A8DAEA22BE1E8500864BD8 /* SerialControlDevCommonEnum.swift in Sources */,
+				92A8DB2822BE1E8500864BD8 /* MountConfigureArdupilotmegaMsg.swift in Sources */,
+				92A8DAC922BE1E8500864BD8 /* Ahrs2ArdupilotmegaMsg.swift in Sources */,
+				92A8DB2A22BE1E8500864BD8 /* RCTypeCommonEnum.swift in Sources */,
+				92A8DA3322BE1E8500864BD8 /* UavionixADSBRfHealthUavionixEnum.swift in Sources */,
+				92A8DAFB22BE1E8500864BD8 /* GoproHeartbeatArdupilotmegaMsg.swift in Sources */,
+				92A8DAB822BE1E8500864BD8 /* FenceFetchPointArdupilotmegaMsg.swift in Sources */,
+				92A8DAC822BE1E8500864BD8 /* MissionCountCommonMsg.swift in Sources */,
+				92A8DA7622BE1E8500864BD8 /* GPS2RTKCommonMsg.swift in Sources */,
+				92A8DA7C22BE1E8500864BD8 /* SensorOffsetsArdupilotmegaMsg.swift in Sources */,
+				92A8DA7A22BE1E8500864BD8 /* HighresIMUCommonMsg.swift in Sources */,
+				92A8DA6D22BE1E8500864BD8 /* MAVRemoteLogDataBlockCommandsArdupilotmegaEnum.swift in Sources */,
+				92A8DA2E22BE1E8500864BD8 /* RadioArdupilotmegaMsg.swift in Sources */,
+				92A8DA9322BE1E8500864BD8 /* ADSBVehicleCommonMsg.swift in Sources */,
+				92A8DA0E22BE1E8500864BD8 /* SubModeArdupilotmegaEnum.swift in Sources */,
+				92A8DAE522BE1E8500864BD8 /* RCChannelsCommonMsg.swift in Sources */,
+				92A8DB0F22BE1E8500864BD8 /* HeartbeatCommonMsg.swift in Sources */,
+				92A8DB1522BE1E8500864BD8 /* MAVBatteryTypeCommonEnum.swift in Sources */,
+				92A8DA7422BE1E8500864BD8 /* FirmwareVersionTypeCommonEnum.swift in Sources */,
+				92A8DABD22BE1E8500864BD8 /* MAVModeFlagDecodePositionCommonEnum.swift in Sources */,
+				92A8DB4422BE1E8500864BD8 /* PowerStatusCommonMsg.swift in Sources */,
+				92A8DB1A22BE1E8500864BD8 /* GoproPhotoResolutionArdupilotmegaEnum.swift in Sources */,
+				92A8DA3822BE1E8500864BD8 /* PidTuningArdupilotmegaMsg.swift in Sources */,
+				92A8DA3222BE1E8500864BD8 /* CameraModeCommonEnum.swift in Sources */,
+				92A8DAE922BE1E8500864BD8 /* NamedValueFloatCommonMsg.swift in Sources */,
+				92A8DA1522BE1E8500864BD8 /* ParamSetCommonMsg.swift in Sources */,
+				92A8DAAE22BE1E8500864BD8 /* GoproGetResponseArdupilotmegaMsg.swift in Sources */,
+				92A8DA4622BE1E8500864BD8 /* GoproCommandArdupilotmegaEnum.swift in Sources */,
+				92A8DB2122BE1E8500864BD8 /* EncapsulatedDataCommonMsg.swift in Sources */,
+				92A8DA1822BE1E8500864BD8 /* MAVMissionTypeCommonEnum.swift in Sources */,
+				92A8DA2222BE1E8500864BD8 /* HlFailureFlagCommonEnum.swift in Sources */,
+				92A8DAFE22BE1E8500864BD8 /* Data32ArdupilotmegaMsg.swift in Sources */,
+				92A8DAB922BE1E8500864BD8 /* BatteryStatusCommonMsg.swift in Sources */,
+				92A8DAA922BE1E8500864BD8 /* DebugVectCommonMsg.swift in Sources */,
+				92A8DA9522BE1E8500864BD8 /* RawPressureCommonMsg.swift in Sources */,
+				92A8DAF122BE1E8500864BD8 /* GPSRtcmDataCommonMsg.swift in Sources */,
+				92A8DA6322BE1E8500864BD8 /* EstimatorStatusFlagsCommonEnum.swift in Sources */,
+				92A8DA5C22BE1E8500864BD8 /* DistanceSensorCommonMsg.swift in Sources */,
+				92A8DAE422BE1E8500864BD8 /* RawIMUCommonMsg.swift in Sources */,
+				92A8DA3422BE1E8500864BD8 /* LocalPositionNEDSystemGlobalOffsetCommonMsg.swift in Sources */,
+				92A8DB4222BE1E8500864BD8 /* MAVComponentCommonEnum.swift in Sources */,
+				92A8DAAF22BE1E8500864BD8 /* MAVModeFlagCommonEnum.swift in Sources */,
+				92A8DA4F22BE1E8500864BD8 /* MAVLandedStateCommonEnum.swift in Sources */,
+				92A8DABC22BE1E8500864BD8 /* GoproHeartbeatStatusArdupilotmegaEnum.swift in Sources */,
+				92A8DB2422BE1E8500864BD8 /* MavlinkDataStreamTypeCommonEnum.swift in Sources */,
+				92A8DA9B22BE1E8500864BD8 /* FencePointArdupilotmegaMsg.swift in Sources */,
+				92A8DA5B22BE1E8500864BD8 /* AirspeedAutocalArdupilotmegaMsg.swift in Sources */,
+				92A8DA2822BE1E8500864BD8 /* GPSGlobalOriginCommonMsg.swift in Sources */,
+				92A8DAC422BE1E8500864BD8 /* RTKBaselineCoordinateSystemCommonEnum.swift in Sources */,
+				92A8DA8A22BE1E8500864BD8 /* AccelcalVehiclePosArdupilotmegaEnum.swift in Sources */,
+				92A8DB3522BE1E8500864BD8 /* DebugCommonMsg.swift in Sources */,
+				92A8DAA722BE1E8500864BD8 /* GPSRawIntCommonMsg.swift in Sources */,
+				92A8DA8422BE1E8500864BD8 /* TerrainReportCommonMsg.swift in Sources */,
+				92A8DB3122BE1E8500864BD8 /* ParamAckCommonEnum.swift in Sources */,
+				92A8DADD22BE1E8500864BD8 /* TrackerModeArdupilotmegaEnum.swift in Sources */,
+				92A8DA7E22BE1E8500864BD8 /* NamedValueIntCommonMsg.swift in Sources */,
+				92A8DA9C22BE1E8500864BD8 /* SetPositionTargetGlobalIntCommonMsg.swift in Sources */,
+				92A8DA4522BE1E8500864BD8 /* MAVCmdArdupilotmegaEnum.swift in Sources */,
+				92A8DAE722BE1E8500864BD8 /* HilActuatorControlsCommonMsg.swift in Sources */,
+				92A8DAFA22BE1E8500864BD8 /* MissionSetCurrentCommonMsg.swift in Sources */,
+				92A8DAD222BE1E8500864BD8 /* ViconPositionEstimateCommonMsg.swift in Sources */,
+				92A8DA7822BE1E8500864BD8 /* MAVCollisionActionCommonEnum.swift in Sources */,
+				92A8DA3522BE1E8500864BD8 /* PrecisionLandModeCommonEnum.swift in Sources */,
+				92A8DA8022BE1E8500864BD8 /* GoproGetRequestArdupilotmegaMsg.swift in Sources */,
+				92A8DB2D22BE1E8500864BD8 /* CommandLongCommonMsg.swift in Sources */,
+				92A8DA1D22BE1E8500864BD8 /* Ahrs3ArdupilotmegaMsg.swift in Sources */,
+				92A8DB4622BE1E8500864BD8 /* ControlSystemStateCommonMsg.swift in Sources */,
+				92A8DAAD22BE1E8500864BD8 /* MAVBatteryChargeStateCommonEnum.swift in Sources */,
+				92A8DAEC22BE1E8500864BD8 /* ParamRequestListCommonMsg.swift in Sources */,
+				92A8DA5822BE1E8500864BD8 /* SimstateArdupilotmegaMsg.swift in Sources */,
+				92A8DA4422BE1E8500864BD8 /* MAVSeverityCommonEnum.swift in Sources */,
+				92A8DA9D22BE1E8500864BD8 /* MountControlArdupilotmegaMsg.swift in Sources */,
+				92A8DA1122BE1E8500864BD8 /* ParachuteActionCommonEnum.swift in Sources */,
+				92A8DA2D22BE1E8500864BD8 /* MAVSysStatusSensorCommonEnum.swift in Sources */,
+				92A8DA2A22BE1E8500864BD8 /* MissionRequestPartialListCommonMsg.swift in Sources */,
+				92A8DB0B22BE1E8500864BD8 /* HilGPSCommonMsg.swift in Sources */,
+				92A8DB1B22BE1E8500864BD8 /* Data16ArdupilotmegaMsg.swift in Sources */,
+				92A8DA7522BE1E8500864BD8 /* MAVFrameCommonEnum.swift in Sources */,
+				92A8DB0522BE1E8500864BD8 /* GoproProtuneExposureArdupilotmegaEnum.swift in Sources */,
+				92A8DA4A22BE1E8500864BD8 /* LogEntryCommonMsg.swift in Sources */,
+				92A8DA6522BE1E8500864BD8 /* LogRequestListCommonMsg.swift in Sources */,
+				92A8DA6822BE1E8500864BD8 /* MAVCollisionThreatLevelCommonEnum.swift in Sources */,
+				92A8DB2222BE1E8500864BD8 /* RequestDataStreamCommonMsg.swift in Sources */,
+				92A8DA5322BE1E8500864BD8 /* RoverModeArdupilotmegaEnum.swift in Sources */,
+				92A8DA3B22BE1E8500864BD8 /* DataStreamCommonMsg.swift in Sources */,
+				92A8DB3A22BE1E8500864BD8 /* ScaledPressure2CommonMsg.swift in Sources */,
+				92A8DABF22BE1E8500864BD8 /* PositionTargetGlobalIntCommonMsg.swift in Sources */,
+				92A8DA4022BE1E8500864BD8 /* MAVVTOLStateCommonEnum.swift in Sources */,
+				92A8DA1F22BE1E8500864BD8 /* PlaneModeArdupilotmegaEnum.swift in Sources */,
+				9204114922B8F70200B5DE64 /* MacroConfig.swift in Sources */,
+				92A8DA1722BE1E8500864BD8 /* MagCalStatusArdupilotmegaEnum.swift in Sources */,
+				92A8DA5222BE1E8500864BD8 /* MissionRequestListCommonMsg.swift in Sources */,
+				92A8DA5922BE1E8500864BD8 /* GoproProtuneGainArdupilotmegaEnum.swift in Sources */,
+				92A8DAF922BE1E8500864BD8 /* WindArdupilotmegaMsg.swift in Sources */,
+				9204114B22B8F73C00B5DE64 /* RSBaseNavigationController.swift in Sources */,
+				92A8DAA022BE1E8500864BD8 /* LogDataCommonMsg.swift in Sources */,
+				92A8DAE022BE1E8500864BD8 /* EkfStatusFlagsArdupilotmegaEnum.swift in Sources */,
+				92A8DB3722BE1E8500864BD8 /* GlobalPositionIntCommonMsg.swift in Sources */,
+				92A8DA4E22BE1E8500864BD8 /* LimitsStatusArdupilotmegaMsg.swift in Sources */,
+				92A8DAC722BE1E8500864BD8 /* MAVSensorOrientationCommonEnum.swift in Sources */,
+				92A8DB1722BE1E8500864BD8 /* ActuatorControlTargetCommonMsg.swift in Sources */,
+				92A8DAA822BE1E8500864BD8 /* MissionCurrentCommonMsg.swift in Sources */,
+				92A8DAF422BE1E8500864BD8 /* PositionTargetTypemaskCommonEnum.swift in Sources */,
+				92A8DB1122BE1E8500864BD8 /* ChangeOperatorControlAckCommonMsg.swift in Sources */,
+				92A8DAB722BE1E8500864BD8 /* RallyFlagsArdupilotmegaEnum.swift in Sources */,
+				92A8DA6922BE1E8500864BD8 /* HilControlsCommonMsg.swift in Sources */,
+				92A8DACF22BE1E8500864BD8 /* Battery2ArdupilotmegaMsg.swift in Sources */,
+				92A8DA7B22BE1E8500864BD8 /* MAVParamExtTypeCommonEnum.swift in Sources */,
+				92A8DA0F22BE1E8500864BD8 /* RCChannelsRawCommonMsg.swift in Sources */,
+				92A8DA2722BE1E8500864BD8 /* LogRequestEndCommonMsg.swift in Sources */,
+				92A8DA8222BE1E8500864BD8 /* MissionItemCommonMsg.swift in Sources */,
+				92A8DB0122BE1E8500864BD8 /* AltitudeCommonMsg.swift in Sources */,
+				92A8DA6222BE1E8500864BD8 /* GimbalAxisCalibrationRequiredArdupilotmegaEnum.swift in Sources */,
+				92A8DA2622BE1E8500864BD8 /* MissionItemReachedCommonMsg.swift in Sources */,
+				92A8DA5F22BE1E8500864BD8 /* SerialControlFlagCommonEnum.swift in Sources */,
+				92A8D68522BE195200864BD8 /* MAVLinkModel.swift in Sources */,
+				92A8DA5422BE1E8500864BD8 /* VideoStreamTypeCommonEnum.swift in Sources */,
+				92A8DB2022BE1E8500864BD8 /* MAVMountModeCommonEnum.swift in Sources */,
+				92A8DA8922BE1E8500864BD8 /* MAVSmartBatteryFaultCommonEnum.swift in Sources */,
+				92A8DA8B22BE1E8500864BD8 /* MeminfoArdupilotmegaMsg.swift in Sources */,
+				92A8DAD722BE1E8500864BD8 /* RallyFetchPointArdupilotmegaMsg.swift in Sources */,
+				92A8DA1B22BE1E8500864BD8 /* AttitudeCommonMsg.swift in Sources */,
+				92A8DA6C22BE1E8500864BD8 /* MAVROICommonEnum.swift in Sources */,
+				92A8DA6022BE1E8500864BD8 /* PositionTargetLocalNEDCommonMsg.swift in Sources */,
+				92A8DB2C22BE1E8500864BD8 /* GoproHeartbeatFlagsArdupilotmegaEnum.swift in Sources */,
+				92A8DB2F22BE1E8500864BD8 /* ADSBAltitudeTypeCommonEnum.swift in Sources */,
+				92A8DA3C22BE1E8500864BD8 /* UavionixADSBOutCfgAircraftSizeUavionixEnum.swift in Sources */,
+				92A8DB3222BE1E8500864BD8 /* IcarousFmsStateIcarousEnum.swift in Sources */,
+				92A8DB3E22BE1E8500864BD8 /* GimbalControlArdupilotmegaMsg.swift in Sources */,
+				92A8DB1D22BE1E8500864BD8 /* UtmFlightStateCommonEnum.swift in Sources */,
+				92A8DAD922BE1E8500864BD8 /* AuthKeyCommonMsg.swift in Sources */,
+				92A8DA8122BE1E8500864BD8 /* CopterModeArdupilotmegaEnum.swift in Sources */,
+				92A8DAC122BE1E8500864BD8 /* ServoOutputRawCommonMsg.swift in Sources */,
+				92A8DADC22BE1E8500864BD8 /* LogEraseCommonMsg.swift in Sources */,
+				92A8DA6722BE1E8500864BD8 /* MAVDistanceSensorCommonEnum.swift in Sources */,
+				92A8DA8622BE1E8500864BD8 /* GPSStatusCommonMsg.swift in Sources */,
+				92A8DA8D22BE1E8500864BD8 /* MAVGotoCommonEnum.swift in Sources */,
+				92A8DAEE22BE1E8500864BD8 /* UavionixADSBOutDynamicStateUavionixEnum.swift in Sources */,
+				92A8DAA422BE1E8500864BD8 /* ManualSetpointCommonMsg.swift in Sources */,
+				92A8DAFD22BE1E8500864BD8 /* HilRCInputsRawCommonMsg.swift in Sources */,
+				92A8DB3D22BE1E8500864BD8 /* GoproCaptureModeArdupilotmegaEnum.swift in Sources */,
+				92A8DB2722BE1E8500864BD8 /* SetGPSGlobalOriginCommonMsg.swift in Sources */,
+				92A8DACE22BE1E8500864BD8 /* VTOLTransitionHeadingCommonEnum.swift in Sources */,
+				92A8DA5722BE1E8500864BD8 /* TimesyncCommonMsg.swift in Sources */,
+				92A8DA4222BE1E8500864BD8 /* GoproProtuneWhiteBalanceArdupilotmegaEnum.swift in Sources */,
+				92A8DB3022BE1E8500864BD8 /* AttitudeQuaternionCommonMsg.swift in Sources */,
+				92A8DAF722BE1E8500864BD8 /* GoproRequestStatusArdupilotmegaEnum.swift in Sources */,
+				92A8DB0422BE1E8500864BD8 /* MAVMissionResultCommonEnum.swift in Sources */,
+				92A8DA4322BE1E8500864BD8 /* UavionixADSBEmergencyStatusUavionixEnum.swift in Sources */,
+				92A8DA9122BE1E8500864BD8 /* AhrsArdupilotmegaMsg.swift in Sources */,
+				92A8DB0622BE1E8500864BD8 /* HilStateQuaternionCommonMsg.swift in Sources */,
+				92A8DA7222BE1E8500864BD8 /* AttitudeQuaternionCovCommonMsg.swift in Sources */,
+				92A8DAF022BE1E8500864BD8 /* CommandAckCommonMsg.swift in Sources */,
+				92A8DA4122BE1E8500864BD8 /* GlobalVisionPositionEstimateCommonMsg.swift in Sources */,
+				92A8DA9622BE1E8500864BD8 /* GoproProtuneSharpnessArdupilotmegaEnum.swift in Sources */,
+				92A8DA1322BE1E8500864BD8 /* RemoteLogBlockStatusArdupilotmegaMsg.swift in Sources */,
+				92A8DA9422BE1E8500864BD8 /* FileTransferProtocolCommonMsg.swift in Sources */,
+				92A8DB3B22BE1E8500864BD8 /* SetMagOffsetsArdupilotmegaMsg.swift in Sources */,
+				92A8DA5522BE1E8500864BD8 /* ParamValueCommonMsg.swift in Sources */,
+				92A8DA2922BE1E8500864BD8 /* LedControlArdupilotmegaMsg.swift in Sources */,
+				92A8DB0D22BE1E8500864BD8 /* MotorTestOrderCommonEnum.swift in Sources */,
+				92A8DB3F22BE1E8500864BD8 /* MAVCollisionSrcCommonEnum.swift in Sources */,
+				92A8DA5122BE1E8500864BD8 /* ExtendedSysStateCommonMsg.swift in Sources */,
+				92A8DA6B22BE1E8500864BD8 /* AutopilotVersionRequestArdupilotmegaMsg.swift in Sources */,
+				92A8DA3022BE1E8500864BD8 /* MAVModeCommonEnum.swift in Sources */,
+				92A8DAD122BE1E8500864BD8 /* AutopilotVersionCommonMsg.swift in Sources */,
+				92A8D68322BE18DC00864BD8 /* MAVLinkManager.swift in Sources */,
+				92A8DA3722BE1E8500864BD8 /* VideoStreamStatusFlagsCommonEnum.swift in Sources */,
+				92A8DA2F22BE1E8500864BD8 /* SafetySetAllowedAreaCommonMsg.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92040E8622B876CA00B5DE64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92040E8F22B876CA00B5DE64 /* swift_linkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92040E9122B876CA00B5DE64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92040E9A22B876CA00B5DE64 /* swift_linkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92040E8C22B876CA00B5DE64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92040E7522B876C900B5DE64 /* swift_link */;
+			targetProxy = 92040E8B22B876CA00B5DE64 /* PBXContainerItemProxy */;
+		};
+		92040E9722B876CA00B5DE64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92040E7522B876C900B5DE64 /* swift_link */;
+			targetProxy = 92040E9622B876CA00B5DE64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92040E8222B876CA00B5DE64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92040E8322B876CA00B5DE64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92040E9C22B876CA00B5DE64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92040E9D22B876CA00B5DE64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92040E9F22B876CA00B5DE64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LG9L7VUFJN;
+				INFOPLIST_FILE = swift_link/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.swift-link";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92040EA022B876CA00B5DE64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LG9L7VUFJN;
+				INFOPLIST_FILE = swift_link/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.swift-link";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		92040EA222B876CA00B5DE64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LG9L7VUFJN;
+				INFOPLIST_FILE = swift_linkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.swift-linkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift_link.app/swift_link";
+			};
+			name = Debug;
+		};
+		92040EA322B876CA00B5DE64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LG9L7VUFJN;
+				INFOPLIST_FILE = swift_linkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.swift-linkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift_link.app/swift_link";
+			};
+			name = Release;
+		};
+		92040EA522B876CA00B5DE64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LG9L7VUFJN;
+				INFOPLIST_FILE = swift_linkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.swift-linkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = swift_link;
+			};
+			name = Debug;
+		};
+		92040EA622B876CA00B5DE64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LG9L7VUFJN;
+				INFOPLIST_FILE = swift_linkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.swift-linkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = swift_link;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92040E7122B876C900B5DE64 /* Build configuration list for PBXProject "swift_link" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92040E9C22B876CA00B5DE64 /* Debug */,
+				92040E9D22B876CA00B5DE64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92040E9E22B876CA00B5DE64 /* Build configuration list for PBXNativeTarget "swift_link" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92040E9F22B876CA00B5DE64 /* Debug */,
+				92040EA022B876CA00B5DE64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92040EA122B876CA00B5DE64 /* Build configuration list for PBXNativeTarget "swift_linkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92040EA222B876CA00B5DE64 /* Debug */,
+				92040EA322B876CA00B5DE64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92040EA422B876CA00B5DE64 /* Build configuration list for PBXNativeTarget "swift_linkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92040EA522B876CA00B5DE64 /* Debug */,
+				92040EA622B876CA00B5DE64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92040E6E22B876C900B5DE64 /* Project object */;
+}
